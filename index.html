@@ -13,7 +13,7 @@
       <a href="index.html" class="wordmark" aria-label="Owen Kelley, home">OWEN KELLEY</a>
       <p class="intro" aria-live="polite">
         <span class="intro-text" data-intro></span><span class="intro-caret" aria-hidden="true"></span>
-        <a class="intro-cta" href="#" data-intro-cta hidden>talk to tobi</a>
+        <a class="intro-cta" href="#" data-intro-cta hidden>talk to Tobi</a>
       </p>
     </div>
     <nav class="nav-links" aria-label="Primary">
@@ -43,8 +43,8 @@
 
       var messages = [
         'Hey!',
-        'Pssss',
-        'My name is Tobi, I manage this site for Owen. Questions? Let me know!'
+        'Pssss!',
+        'My Name is Tobi'
       ];
 
       var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -55,10 +55,10 @@
         return;
       }
 
-      var typeMs = 45;
-      var eraseMs = 25;
+      var typeMs = 55;
+      var eraseMs = 30;
       var holdMs = 900;
-      var finalHoldMs = 1600;
+      var finalHoldMs = 1400;
 
       var msgIdx = 0;
       var charIdx = 0;
@@ -77,14 +77,14 @@
           }
           setTimeout(step, typeMs);
         } else {
-          if (msgIdx === messages.length - 1) {
-            if (caretEl) caretEl.remove();
-            ctaEl.hidden = false;
-            return;
-          }
           charIdx--;
           textEl.textContent = current.slice(0, charIdx);
           if (charIdx <= 0) {
+            if (msgIdx === messages.length - 1) {
+              if (caretEl) caretEl.remove();
+              ctaEl.hidden = false;
+              return;
+            }
             typing = true;
             msgIdx++;
             setTimeout(step, typeMs);

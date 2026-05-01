@@ -74,7 +74,7 @@ a:focus-visible,
   margin: 0;
   font-size: 0.8125rem;
   line-height: 1.4;
-  color: var(--fg);
+  color: #8a8a8a;
   max-width: 38ch;
   min-height: 1.4em;
 }
@@ -84,7 +84,7 @@ a:focus-visible,
   width: 1px;
   height: 0.95em;
   margin-left: 1px;
-  background: var(--fg);
+  background: #8a8a8a;
   vertical-align: -0.12em;
   animation: intro-blink 1s steps(1, end) infinite;
 }
@@ -95,8 +95,16 @@ a:focus-visible,
 }
 
 .intro-cta {
-  border-bottom: 1px solid var(--fg);
+  color: #8a8a8a;
+  border-bottom: 1px solid #8a8a8a;
   padding-bottom: 1px;
+  transition: color 150ms ease, border-color 150ms ease;
+}
+
+.intro-cta:hover,
+.intro-cta:focus-visible {
+  color: var(--fg);
+  border-bottom-color: var(--fg);
 }
 
 @media (prefers-reduced-motion: reduce) {

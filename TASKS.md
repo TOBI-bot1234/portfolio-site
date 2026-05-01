@@ -4,11 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Add Work, About, Contact placeholder pages — Create `work.html`, `about.html`, `contact.html`. Each has the existing nav (with active state), a page title, and a short on-brand "coming soon" body. No new fonts, colors, or components beyond what's in `styles.css`.
+- Wire `index.html` nav and hero buttons to the new pages — Replace anchor hrefs (`#work`, `#about`, `#contact`) on the nav and hero buttons with the new page paths. Leave the Resume button alone until Owen decides on the resume route.
 
 ## Backlog
 
-1. Wire `index.html` nav and hero buttons to the new pages — Replace anchor hrefs (`#work`, `#about`, `#contact`) on the nav and hero buttons with the new page paths. Leave the Resume button alone until Owen decides on the resume route.
+_(none)_
 
 ## Needs Owen's input
 
@@ -16,4 +16,5 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-01 — Add Work, About, Contact placeholder pages — commit e2b2a17
 - 2026-05-01 — Add shared inner-page layout styles — commit 0c0a13c

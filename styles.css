@@ -153,6 +153,11 @@ a:focus-visible,
   margin-top: 1rem;
 }
 
+.page-link {
+  border-bottom: 1.5px solid var(--fg);
+  padding-bottom: 1px;
+}
+
 @media (max-width: 640px) {
   .nav {
     padding: 1.25rem var(--pad-x);

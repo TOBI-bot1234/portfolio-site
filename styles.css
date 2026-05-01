@@ -2,7 +2,6 @@
   --bg: #ffffff;
   --fg: #0a0a0a;
   --border: #0a0a0a;
-  --muted: #6b7280;
   --max-w: 1200px;
   --pad-x: clamp(1.25rem, 4vw, 3rem);
 }

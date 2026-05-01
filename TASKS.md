@@ -16,7 +16,7 @@ _(none)_
 
 ## Done (last 10)
 
-- 2026-05-01 — Fix nav and hero links 404ing on GitHub Pages (absolute → relative paths) — commit pending
+- 2026-05-01 — Fix nav and hero links 404ing on GitHub Pages (absolute → relative paths) — commit 44db40e
 - 2026-05-01 — Add a 404 page and audit for dead links — commit 700e837
 - 2026-05-01 — Wire `index.html` nav and hero buttons to the new pages — commit a7ebda5
 - 2026-05-01 — Add Work, About, Contact placeholder pages — commit e2b2a17

@@ -12,10 +12,11 @@ _(none)_
 
 ## Needs Owen's input
 
-- Resume PDF — `/resume.pdf` is linked from the hero but the file does not exist. Need Owen to drop the actual PDF at the repo root (or provide a hosted URL to point the link at).
+- Resume button — the broken `/resume.pdf` link has been removed from the hero. Reinstate when Owen drops a PDF at the repo root or provides a hosted URL.
 
 ## Done (last 10)
 
+- 2026-05-01 — Fix nav and hero links 404ing on GitHub Pages (absolute → relative paths) — commit pending
 - 2026-05-01 — Add a 404 page and audit for dead links — commit 700e837
 - 2026-05-01 — Wire `index.html` nav and hero buttons to the new pages — commit a7ebda5
 - 2026-05-01 — Add Work, About, Contact placeholder pages — commit e2b2a17

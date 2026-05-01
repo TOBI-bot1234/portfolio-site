@@ -4,13 +4,12 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-_(none)_
+- Add shared inner-page layout styles — Add a `.page` container and section styles to `styles.css` so subpages can reuse the existing typography, spacing, and header without redefining them. Include an active-nav indicator (`aria-current="page"`).
 
 ## Backlog
 
-1. Add shared inner-page layout styles — Add a `.page` container and section styles to `styles.css` so subpages can reuse the existing typography, spacing, and header without redefining them. Include an active-nav indicator (`aria-current="page"`).
-2. Add Work, About, Contact placeholder pages — Create `work.html`, `about.html`, `contact.html`. Each has the existing nav (with active state), a page title, and a short on-brand "coming soon" body. No new fonts, colors, or components beyond what's in `styles.css`.
-3. Wire `index.html` nav and hero buttons to the new pages — Replace anchor hrefs (`#work`, `#about`, `#contact`) on the nav and hero buttons with the new page paths. Leave the Resume button alone until Owen decides on the resume route.
+1. Add Work, About, Contact placeholder pages — Create `work.html`, `about.html`, `contact.html`. Each has the existing nav (with active state), a page title, and a short on-brand "coming soon" body. No new fonts, colors, or components beyond what's in `styles.css`.
+2. Wire `index.html` nav and hero buttons to the new pages — Replace anchor hrefs (`#work`, `#about`, `#contact`) on the nav and hero buttons with the new page paths. Leave the Resume button alone until Owen decides on the resume route.
 
 ## Needs Owen's input
 

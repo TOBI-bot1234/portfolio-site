@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Add a 404 page and audit for dead links
+_(none)_
 
 ## Backlog
 
@@ -16,6 +16,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-01 — Add a 404 page and audit for dead links — commit 700e837
 - 2026-05-01 — Wire `index.html` nav and hero buttons to the new pages — commit a7ebda5
 - 2026-05-01 — Add Work, About, Contact placeholder pages — commit e2b2a17
 - 2026-05-01 — Add shared inner-page layout styles — commit 0c0a13c

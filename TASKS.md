@@ -8,7 +8,11 @@ _(none)_
 
 ## Backlog
 
-_(none)_
+1. Fix typewriter final message getting erased before CTA appears — on the last message the script enters erase mode, wipes "My Name is Tobi", then reveals the CTA on an empty line. Final message should stay visible next to the CTA.
+2. Add a static intro fallback for `prefers-reduced-motion` — currently the reduced-motion path sets `textContent = ''` and shows only the CTA, so reduced-motion users get no introduction at all. Render the final message text statically instead.
+3. Add a favicon — every page currently 404s on `/favicon.ico`. A minimal SVG favicon with the "OK" wordmark or a simple monogram, plus `<link rel="icon">` in each page head.
+4. Add Open Graph and Twitter card meta tags — site has no social preview when shared. Title, description, og:type=website, og:url, twitter:card=summary on each page.
+5. Flesh out README — currently two lines. Add a one-paragraph description, the live URL, and a note that the site is plain static HTML/CSS deployed via GitHub Pages.
 
 ## Needs Owen's input
 

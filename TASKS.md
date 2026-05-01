@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Add shared inner-page layout styles — Add a `.page` container and section styles to `styles.css` so subpages can reuse the existing typography, spacing, and header without redefining them. Include an active-nav indicator (`aria-current="page"`).
+_(none)_
 
 ## Backlog
 
@@ -17,4 +17,4 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
-_(none yet)_
+- 2026-05-01 — Add shared inner-page layout styles — commit 0c0a13c

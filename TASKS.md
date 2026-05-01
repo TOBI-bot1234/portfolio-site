@@ -8,11 +8,13 @@ _(none)_
 
 ## Backlog
 
-1. Create placeholder pages for each navigable link — Add minimal, on-brand pages for Work, About, Contact, and a Resume route. Each should match the existing visual language (typography, spacing, header), include the site nav, and a short "coming soon" or stub body. Wire `index.html` links from anchors (`#work`, `#about`, `#contact`) and the hero buttons (View work, Get in touch, Resume) to these new pages.
+1. Add shared inner-page layout styles — Add a `.page` container and section styles to `styles.css` so subpages can reuse the existing typography, spacing, and header without redefining them. Include an active-nav indicator (`aria-current="page"`).
+2. Add Work, About, Contact placeholder pages — Create `work.html`, `about.html`, `contact.html`. Each has the existing nav (with active state), a page title, and a short on-brand "coming soon" body. No new fonts, colors, or components beyond what's in `styles.css`.
+3. Wire `index.html` nav and hero buttons to the new pages — Replace anchor hrefs (`#work`, `#about`, `#contact`) on the nav and hero buttons with the new page paths. Leave the Resume button alone until Owen decides on the resume route.
 
 ## Needs Owen's input
 
-_(none)_
+- Resume route — `index.html` links to `/resume.pdf` but no PDF exists. Decide: ship a `resume.pdf`, build a `resume.html` page, or remove the button until ready. Design/content call.
 
 ## Done (last 10)
 

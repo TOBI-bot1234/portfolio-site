@@ -4,11 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-_(none)_
+- Add typewriter intro under wordmark with "talk to tobi" CTA — under "OWEN KELLEY" in the header, cycle short typewriter messages ("Hey!" → "Pssss" → "My name is Tobi, I manage this site for Owen. Questions? Let me know!"), then settle on a clickable "talk to tobi" link. No backend yet; link is a no-op. Small text, respects `prefers-reduced-motion`.
 
 ## Backlog
 
-1. Add typewriter intro under wordmark with "talk to tobi" CTA — under "OWEN KELLEY" in the header, cycle short typewriter messages ("Hey!" → "Pssss" → "My name is Tobi, I manage this site for Owen. Questions? Let me know!"), then settle on a clickable "talk to tobi" link. No backend yet; link is a no-op. Small text, respects `prefers-reduced-motion`.
+_(none)_
 
 ## Needs Owen's input
 

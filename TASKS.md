@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Add typewriter intro under wordmark with "talk to tobi" CTA — under "OWEN KELLEY" in the header, cycle short typewriter messages ("Hey!" → "Pssss" → "My name is Tobi, I manage this site for Owen. Questions? Let me know!"), then settle on a clickable "talk to tobi" link. No backend yet; link is a no-op. Small text, respects `prefers-reduced-motion`.
+_(none)_
 
 ## Backlog
 
@@ -13,9 +13,11 @@ _(none)_
 ## Needs Owen's input
 
 - Resume button — the broken `/resume.pdf` link has been removed from the hero. Reinstate when Owen drops a PDF at the repo root or provides a hosted URL.
+- "talk to tobi" link is currently a no-op. Decide where it should go (mailto, contact page anchor, future chat surface).
 
 ## Done (last 10)
 
+- 2026-05-01 — Add typewriter intro under wordmark with "talk to tobi" CTA — commit 830ca30
 - 2026-05-01 — Fix nav and hero links 404ing on GitHub Pages (absolute → relative paths) — commit 44db40e
 - 2026-05-01 — Add a 404 page and audit for dead links — commit 700e837
 - 2026-05-01 — Wire `index.html` nav and hero buttons to the new pages — commit a7ebda5

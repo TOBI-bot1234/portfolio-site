@@ -115,7 +115,6 @@ a:focus-visible,
   font-weight: 500;
   background: transparent;
   color: var(--fg);
-  transition: background-color 150ms ease, color 150ms ease;
   white-space: nowrap;
 }
 

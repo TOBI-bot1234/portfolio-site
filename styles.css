@@ -49,11 +49,18 @@ a:focus-visible,
   left: 0;
   right: 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 1.5rem var(--pad-x);
   background: transparent;
   z-index: 10;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 0;
 }
 
 .wordmark {
@@ -61,6 +68,42 @@ a:focus-visible,
   letter-spacing: 0.08em;
   font-size: 0.95rem;
   text-transform: uppercase;
+}
+
+.intro {
+  margin: 0;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: var(--fg);
+  max-width: 38ch;
+  min-height: 1.4em;
+}
+
+.intro-caret {
+  display: inline-block;
+  width: 1px;
+  height: 0.95em;
+  margin-left: 1px;
+  background: var(--fg);
+  vertical-align: -0.12em;
+  animation: intro-blink 1s steps(1, end) infinite;
+}
+
+@keyframes intro-blink {
+  0%, 50% { opacity: 1; }
+  50.01%, 100% { opacity: 0; }
+}
+
+.intro-cta {
+  border-bottom: 1px solid var(--fg);
+  padding-bottom: 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intro-caret {
+    animation: none;
+    display: none;
+  }
 }
 
 .nav-links {
@@ -164,5 +207,9 @@ a:focus-visible,
   }
   .nav-links {
     gap: 1.25rem;
+  }
+  .intro {
+    font-size: 0.75rem;
+    max-width: 22ch;
   }
 }

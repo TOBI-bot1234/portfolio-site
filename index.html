@@ -9,7 +9,13 @@
 </head>
 <body>
   <header class="nav">
-    <a href="index.html" class="wordmark" aria-label="Owen Kelley, home">OWEN KELLEY</a>
+    <div class="brand">
+      <a href="index.html" class="wordmark" aria-label="Owen Kelley, home">OWEN KELLEY</a>
+      <p class="intro" aria-live="polite">
+        <span class="intro-text" data-intro></span><span class="intro-caret" aria-hidden="true"></span>
+        <a class="intro-cta" href="#" data-intro-cta hidden>talk to tobi</a>
+      </p>
+    </div>
     <nav class="nav-links" aria-label="Primary">
       <a href="work.html">Work</a>
       <a href="about.html">About</a>
@@ -27,5 +33,69 @@
       <a class="btn" href="contact.html">Get in touch</a>
     </div>
   </main>
+
+  <script>
+    (function () {
+      var textEl = document.querySelector('[data-intro]');
+      var caretEl = document.querySelector('.intro-caret');
+      var ctaEl = document.querySelector('[data-intro-cta]');
+      if (!textEl || !ctaEl) return;
+
+      var messages = [
+        'Hey!',
+        'Pssss',
+        'My name is Tobi, I manage this site for Owen. Questions? Let me know!'
+      ];
+
+      var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (reduced) {
+        textEl.textContent = '';
+        if (caretEl) caretEl.remove();
+        ctaEl.hidden = false;
+        return;
+      }
+
+      var typeMs = 45;
+      var eraseMs = 25;
+      var holdMs = 900;
+      var finalHoldMs = 1600;
+
+      var msgIdx = 0;
+      var charIdx = 0;
+      var typing = true;
+
+      function step() {
+        var current = messages[msgIdx];
+        if (typing) {
+          charIdx++;
+          textEl.textContent = current.slice(0, charIdx);
+          if (charIdx >= current.length) {
+            typing = false;
+            var hold = msgIdx === messages.length - 1 ? finalHoldMs : holdMs;
+            setTimeout(step, hold);
+            return;
+          }
+          setTimeout(step, typeMs);
+        } else {
+          if (msgIdx === messages.length - 1) {
+            if (caretEl) caretEl.remove();
+            ctaEl.hidden = false;
+            return;
+          }
+          charIdx--;
+          textEl.textContent = current.slice(0, charIdx);
+          if (charIdx <= 0) {
+            typing = true;
+            msgIdx++;
+            setTimeout(step, typeMs);
+            return;
+          }
+          setTimeout(step, eraseMs);
+        }
+      }
+
+      setTimeout(step, 350);
+    })();
+  </script>
 </body>
 </html>

@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Add a static intro fallback for `prefers-reduced-motion`
+_(none)_
 
 ## Backlog
 
@@ -19,6 +19,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-02 — Add static intro fallback for prefers-reduced-motion — commit b026c97
 - 2026-05-02 — Fix typewriter final message getting erased before CTA appears — commit ce69208
 - 2026-05-01 — Add typewriter intro under wordmark with "talk to tobi" CTA — commit 830ca30
 - 2026-05-01 — Fix nav and hero links 404ing on GitHub Pages (absolute → relative paths) — commit 44db40e

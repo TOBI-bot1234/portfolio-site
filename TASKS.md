@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Typewrite "talk to tobi" CTA — after "My Name is Tobi" finishes, erase it, typewrite "talk to tobi", then swap the typed text for the existing CTA link (keep `#` placeholder until target is decided).
+_(none)_
 
 ## Backlog
 
@@ -19,6 +19,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-02 — Typewrite "talk to tobi" CTA after intro — commit 6a1ce43
 - 2026-05-02 — Flesh out README with description, live URL, and stack notes — commit b6b0bf4
 - 2026-05-02 — Add Open Graph and Twitter card meta tags — commit c159b42
 - 2026-05-02 — Add a favicon (OK monogram SVG, linked on all pages) — commit 045b917
@@ -28,4 +29,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-01 — Fix nav and hero links 404ing on GitHub Pages (absolute → relative paths) — commit 44db40e
 - 2026-05-01 — Add a 404 page and audit for dead links — commit 700e837
 - 2026-05-01 — Wire `index.html` nav and hero buttons to the new pages — commit a7ebda5
-- 2026-05-01 — Add Work, About, Contact placeholder pages — commit e2b2a17

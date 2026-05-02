@@ -50,15 +50,17 @@
       var ctaEl = document.querySelector('[data-intro-cta]');
       if (!textEl || !ctaEl) return;
 
+      var ctaText = ctaEl.textContent;
       var messages = [
         'Hey!',
         'Pssss!',
-        'My Name is Tobi'
+        'My Name is Tobi',
+        ctaText
       ];
 
       var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (reduced) {
-        textEl.textContent = messages[messages.length - 1];
+        textEl.textContent = '';
         if (caretEl) caretEl.remove();
         ctaEl.hidden = false;
         return;
@@ -67,28 +69,33 @@
       var typeMs = 55;
       var eraseMs = 30;
       var holdMs = 900;
-      var finalHoldMs = 1400;
+      var penultimateHoldMs = 1400;
+      var ctaHoldMs = 250;
 
       var msgIdx = 0;
       var charIdx = 0;
       var typing = true;
 
+      function revealCta() {
+        textEl.textContent = '';
+        if (caretEl) caretEl.remove();
+        ctaEl.hidden = false;
+      }
+
       function step() {
         var current = messages[msgIdx];
         var isLast = msgIdx === messages.length - 1;
+        var isPenultimate = msgIdx === messages.length - 2;
         if (typing) {
           charIdx++;
           textEl.textContent = current.slice(0, charIdx);
           if (charIdx >= current.length) {
             if (isLast) {
-              setTimeout(function () {
-                if (caretEl) caretEl.remove();
-                ctaEl.hidden = false;
-              }, finalHoldMs);
+              setTimeout(revealCta, ctaHoldMs);
               return;
             }
             typing = false;
-            setTimeout(step, holdMs);
+            setTimeout(step, isPenultimate ? penultimateHoldMs : holdMs);
             return;
           }
           setTimeout(step, typeMs);

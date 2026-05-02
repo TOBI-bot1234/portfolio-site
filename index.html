@@ -66,13 +66,20 @@
 
       function step() {
         var current = messages[msgIdx];
+        var isLast = msgIdx === messages.length - 1;
         if (typing) {
           charIdx++;
           textEl.textContent = current.slice(0, charIdx);
           if (charIdx >= current.length) {
+            if (isLast) {
+              setTimeout(function () {
+                if (caretEl) caretEl.remove();
+                ctaEl.hidden = false;
+              }, finalHoldMs);
+              return;
+            }
             typing = false;
-            var hold = msgIdx === messages.length - 1 ? finalHoldMs : holdMs;
-            setTimeout(step, hold);
+            setTimeout(step, holdMs);
             return;
           }
           setTimeout(step, typeMs);
@@ -80,11 +87,6 @@
           charIdx--;
           textEl.textContent = current.slice(0, charIdx);
           if (charIdx <= 0) {
-            if (msgIdx === messages.length - 1) {
-              if (caretEl) caretEl.remove();
-              ctaEl.hidden = false;
-              return;
-            }
             typing = true;
             msgIdx++;
             setTimeout(step, typeMs);

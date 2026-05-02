@@ -4,12 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-_(none)_
+- Add Open Graph and Twitter card meta tags
 
 ## Backlog
 
-1. Add Open Graph and Twitter card meta tags — site has no social preview when shared. Title, description, og:type=website, og:url, twitter:card=summary on each page.
-2. Flesh out README — currently two lines. Add a one-paragraph description, the live URL, and a note that the site is plain static HTML/CSS deployed via GitHub Pages.
+1. Flesh out README — currently two lines. Add a one-paragraph description, the live URL, and a note that the site is plain static HTML/CSS deployed via GitHub Pages.
 
 ## Needs Owen's input
 

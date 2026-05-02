@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Add Open Graph and Twitter card meta tags
+_(none)_
 
 ## Backlog
 
@@ -14,9 +14,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 - Resume button — the broken `/resume.pdf` link has been removed from the hero. Reinstate when Owen drops a PDF at the repo root or provides a hosted URL.
 - "talk to tobi" link is currently a no-op. Decide where it should go (mailto, contact page anchor, future chat surface).
+- og:image — social previews currently use `twitter:card=summary` (no image). Provide a 1200x630 PNG or approve generating one, then upgrade to `summary_large_image`.
 
 ## Done (last 10)
 
+- 2026-05-02 — Add Open Graph and Twitter card meta tags — commit c159b42
 - 2026-05-02 — Add a favicon (OK monogram SVG, linked on all pages) — commit 045b917
 - 2026-05-02 — Add static intro fallback for prefers-reduced-motion — commit b026c97
 - 2026-05-02 — Fix typewriter final message getting erased before CTA appears — commit ce69208

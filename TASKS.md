@@ -4,13 +4,12 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-_(none)_
+- Add a favicon
 
 ## Backlog
 
-1. Add a favicon — every page currently 404s on `/favicon.ico`. A minimal SVG favicon with the "OK" wordmark or a simple monogram, plus `<link rel="icon">` in each page head.
-2. Add Open Graph and Twitter card meta tags — site has no social preview when shared. Title, description, og:type=website, og:url, twitter:card=summary on each page.
-3. Flesh out README — currently two lines. Add a one-paragraph description, the live URL, and a note that the site is plain static HTML/CSS deployed via GitHub Pages.
+1. Add Open Graph and Twitter card meta tags — site has no social preview when shared. Title, description, og:type=website, og:url, twitter:card=summary on each page.
+2. Flesh out README — currently two lines. Add a one-paragraph description, the live URL, and a note that the site is plain static HTML/CSS deployed via GitHub Pages.
 
 ## Needs Owen's input
 

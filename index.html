@@ -49,7 +49,7 @@
 
       var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (reduced) {
-        textEl.textContent = '';
+        textEl.textContent = messages[messages.length - 1];
         if (caretEl) caretEl.remove();
         ctaEl.hidden = false;
         return;

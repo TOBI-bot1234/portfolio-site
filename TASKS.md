@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Flesh out README — currently two lines. Add a one-paragraph description, the live URL, and a note that the site is plain static HTML/CSS deployed via GitHub Pages.
+_(none)_
 
 ## Backlog
 
@@ -20,6 +20,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-02 — Flesh out README with description, live URL, and stack notes — commit b6b0bf4
 - 2026-05-02 — Add Open Graph and Twitter card meta tags — commit c159b42
 - 2026-05-02 — Add a favicon (OK monogram SVG, linked on all pages) — commit 045b917
 - 2026-05-02 — Add static intro fallback for prefers-reduced-motion — commit b026c97
@@ -29,4 +30,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-01 — Add a 404 page and audit for dead links — commit 700e837
 - 2026-05-01 — Wire `index.html` nav and hero buttons to the new pages — commit a7ebda5
 - 2026-05-01 — Add Work, About, Contact placeholder pages — commit e2b2a17
-- 2026-05-01 — Add shared inner-page layout styles — commit 0c0a13c

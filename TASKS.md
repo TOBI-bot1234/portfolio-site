@@ -9,6 +9,9 @@ _(none)_
 ## Backlog
 
 1. Flesh out README — currently two lines. Add a one-paragraph description, the live URL, and a note that the site is plain static HTML/CSS deployed via GitHub Pages.
+2. Typewrite "talk to tobi" CTA — after "My Name is Tobi" finishes, erase it, typewrite "talk to tobi", then swap the typed text for the existing CTA link (keep `#` placeholder until target is decided).
+3. Add subtle ambient animations across the site — creative latitude. Think hover lifts, fade-ins on load, soft nav underline, gentle wordmark interaction. Nothing heavy, nothing that hurts CLS or distracts. Decompose when picked up.
+4. Pixel-art retro cursor site-wide — replace the default cursor with a small pixely cursor (and a matching pointer variant for interactive elements). Use CSS `cursor: url(...)` with PNG/SVG, include fallback, respect touch devices.
 
 ## Needs Owen's input
 

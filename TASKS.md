@@ -4,13 +4,12 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-_(none)_
+- Typewrite "talk to tobi" CTA — after "My Name is Tobi" finishes, erase it, typewrite "talk to tobi", then swap the typed text for the existing CTA link (keep `#` placeholder until target is decided).
 
 ## Backlog
 
-1. Typewrite "talk to tobi" CTA — after "My Name is Tobi" finishes, erase it, typewrite "talk to tobi", then swap the typed text for the existing CTA link (keep `#` placeholder until target is decided).
-2. Add subtle ambient animations across the site — creative latitude. Think hover lifts, fade-ins on load, soft nav underline, gentle wordmark interaction. Nothing heavy, nothing that hurts CLS or distracts. Decompose when picked up.
-3. Pixel-art retro cursor site-wide — replace the default cursor with a small pixely cursor (and a matching pointer variant for interactive elements). Use CSS `cursor: url(...)` with PNG/SVG, include fallback, respect touch devices.
+1. Add subtle ambient animations across the site — creative latitude. Think hover lifts, fade-ins on load, soft nav underline, gentle wordmark interaction. Nothing heavy, nothing that hurts CLS or distracts. Decompose when picked up.
+2. Pixel-art retro cursor site-wide — replace the default cursor with a small pixely cursor (and a matching pointer variant for interactive elements). Use CSS `cursor: url(...)` with PNG/SVG, include fallback, respect touch devices.
 
 ## Needs Owen's input
 

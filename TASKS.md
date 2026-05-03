@@ -4,11 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-_(none)_
+- Pixel-art retro cursor site-wide — replace the default cursor with a small pixely cursor (and a matching pointer variant for interactive elements). Use CSS `cursor: url(...)` with PNG/SVG, include fallback, respect touch devices.
 
 ## Backlog
 
-1. Pixel-art retro cursor site-wide — replace the default cursor with a small pixely cursor (and a matching pointer variant for interactive elements). Use CSS `cursor: url(...)` with PNG/SVG, include fallback, respect touch devices.
+_(none)_
 
 ## Needs Owen's input
 

@@ -4,12 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-_(none)_
+- Ambient animation: wordmark micro-interaction — subtle letter-spacing or opacity shift on `.wordmark` hover. Tiny, ~200ms.
 
 ## Backlog
 
-1. Ambient animation: wordmark micro-interaction — subtle letter-spacing or opacity shift on `.wordmark` hover. Tiny, ~200ms.
-2. Pixel-art retro cursor site-wide — replace the default cursor with a small pixely cursor (and a matching pointer variant for interactive elements). Use CSS `cursor: url(...)` with PNG/SVG, include fallback, respect touch devices.
+1. Pixel-art retro cursor site-wide — replace the default cursor with a small pixely cursor (and a matching pointer variant for interactive elements). Use CSS `cursor: url(...)` with PNG/SVG, include fallback, respect touch devices.
 
 ## Needs Owen's input
 

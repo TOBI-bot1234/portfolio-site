@@ -261,3 +261,37 @@ a:focus-visible,
     max-width: 22ch;
   }
 }
+
+/* Ambient fade-in on initial paint. Opacity + transform only to avoid CLS. */
+@keyframes ambient-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ambient-fade-in-nav {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.nav {
+  animation: ambient-fade-in-nav 600ms ease-out 80ms both;
+}
+
+.hero,
+.page {
+  animation: ambient-fade-in 600ms ease-out 160ms both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav,
+  .hero,
+  .page {
+    animation: none;
+  }
+}

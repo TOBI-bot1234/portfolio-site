@@ -4,15 +4,14 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-_(none)_
+- Ambient animation: hero button hover lift
 
 ## Backlog
 
-1. Ambient animation: hero button hover lift — subtle translate-Y + soft shadow on `.btn` hover/focus, 150ms ease. No CLS (transform only). Respect prefers-reduced-motion.
-2. Ambient animation: nav link hover underline — animated underline that grows from left on `.nav-links a` hover/focus. Match the intro-cta language. ~150ms ease.
-3. Ambient animation: fade-in on load — hero and page content fade + small translate-Y on initial paint. CSS-only, no JS, respect prefers-reduced-motion. Watch for CLS.
-4. Ambient animation: wordmark micro-interaction — subtle letter-spacing or opacity shift on `.wordmark` hover. Tiny, ~200ms.
-5. Pixel-art retro cursor site-wide — replace the default cursor with a small pixely cursor (and a matching pointer variant for interactive elements). Use CSS `cursor: url(...)` with PNG/SVG, include fallback, respect touch devices.
+1. Ambient animation: nav link hover underline — animated underline that grows from left on `.nav-links a` hover/focus. Match the intro-cta language. ~150ms ease.
+2. Ambient animation: fade-in on load — hero and page content fade + small translate-Y on initial paint. CSS-only, no JS, respect prefers-reduced-motion. Watch for CLS.
+3. Ambient animation: wordmark micro-interaction — subtle letter-spacing or opacity shift on `.wordmark` hover. Tiny, ~200ms.
+4. Pixel-art retro cursor site-wide — replace the default cursor with a small pixely cursor (and a matching pointer variant for interactive elements). Use CSS `cursor: url(...)` with PNG/SVG, include fallback, respect touch devices.
 
 ## Needs Owen's input
 

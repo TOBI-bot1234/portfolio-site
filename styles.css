@@ -123,11 +123,33 @@ a:focus-visible,
 
 .nav-links a {
   color: var(--fg);
+  position: relative;
+  padding-bottom: 2px;
 }
 
-.nav-links a[aria-current="page"] {
-  border-bottom: 1.5px solid var(--fg);
-  padding-bottom: 2px;
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1.5px;
+  background: var(--fg);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 150ms ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a:focus-visible::after,
+.nav-links a[aria-current="page"]::after {
+  transform: scaleX(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-links a::after {
+    transition: none;
+  }
 }
 
 .hero {

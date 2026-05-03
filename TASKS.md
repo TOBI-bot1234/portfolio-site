@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Ambient animation: nav link hover underline — animated underline that grows from left on `.nav-links a` hover/focus. Match the intro-cta language. ~150ms ease.
+_(none)_
 
 ## Backlog
 
@@ -20,6 +20,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-03 — Ambient animation: nav link hover underline — commit 1542e92
 - 2026-05-03 — Ambient animation: hero button hover lift — commit e8bc2f0
 - 2026-05-02 — Typewrite "talk to tobi" CTA after intro — commit 6a1ce43
 - 2026-05-02 — Flesh out README with description, live URL, and stack notes — commit b6b0bf4
@@ -29,4 +30,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-02 — Fix typewriter final message getting erased before CTA appears — commit ce69208
 - 2026-05-01 — Add typewriter intro under wordmark with "talk to tobi" CTA — commit 830ca30
 - 2026-05-01 — Fix nav and hero links 404ing on GitHub Pages (absolute → relative paths) — commit 44db40e
-- 2026-05-01 — Add a 404 page and audit for dead links — commit 700e837

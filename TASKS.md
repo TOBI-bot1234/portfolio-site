@@ -8,7 +8,9 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-_(none)_
+1. Add skip-to-content link — keyboard users currently have to tab through the whole nav before reaching `<main>`. Add a visually-hidden `<a class="skip-link" href="#main">Skip to content</a>` as the first focusable element on every page, with a focus state that brings it on-screen. Add `id="main"` to each `<main>`.
+2. Add `robots.txt` and `sitemap.xml` — site is currently invisible to crawlers beyond default behaviour. Ship a permissive `robots.txt` and a hand-written `sitemap.xml` covering the four indexable pages (index, work, about, contact). Reference sitemap from robots.txt.
+3. Consolidate duplicate `.nav` selector in `styles.css` — the selector is defined twice (lines ~62 and ~314, the second only adding `animation`). Merge into a single rule, no visual change. Pure refactor.
 
 ## Needs Owen's input
 

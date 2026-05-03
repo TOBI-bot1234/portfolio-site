@@ -171,6 +171,24 @@ a:focus-visible,
   background: transparent;
   color: var(--fg);
   white-space: nowrap;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -8px rgba(10, 10, 10, 0.25);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none;
+  }
+  .btn:hover,
+  .btn:focus-visible {
+    transform: none;
+    box-shadow: none;
+  }
 }
 
 .page {

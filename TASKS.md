@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Ambient animation: wordmark micro-interaction — subtle letter-spacing or opacity shift on `.wordmark` hover. Tiny, ~200ms.
+_(none)_
 
 ## Backlog
 
@@ -18,6 +18,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-03 — Ambient animation: wordmark micro-interaction — commit e52c757
 - 2026-05-03 — Ambient animation: fade-in on load — commit 19ee39a
 - 2026-05-03 — Ambient animation: nav link hover underline — commit 1542e92
 - 2026-05-03 — Ambient animation: hero button hover lift — commit e8bc2f0
@@ -27,4 +28,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-02 — Add a favicon (OK monogram SVG, linked on all pages) — commit 045b917
 - 2026-05-02 — Add static intro fallback for prefers-reduced-motion — commit b026c97
 - 2026-05-02 — Fix typewriter final message getting erased before CTA appears — commit ce69208
-- 2026-05-01 — Add typewriter intro under wordmark with "talk to tobi" CTA — commit 830ca30

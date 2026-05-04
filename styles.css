@@ -98,6 +98,7 @@ a:focus-visible,
   padding: 1.5rem var(--pad-x);
   background: transparent;
   z-index: 10;
+  animation: ambient-fade-in-nav 600ms ease-out 80ms both;
 }
 
 .brand {
@@ -337,10 +338,6 @@ a:focus-visible,
 @keyframes ambient-fade-in-nav {
   from { opacity: 0; }
   to { opacity: 1; }
-}
-
-.nav {
-  animation: ambient-fade-in-nav 600ms ease-out 80ms both;
 }
 
 .hero,

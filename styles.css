@@ -44,7 +44,7 @@ body {
   .btn,
   .intro-cta,
   .wordmark {
-    cursor: url("assets/cursor-pointer.png") 10 1, pointer;
+    cursor: url("assets/cursor-pointer.png") 5 1, pointer;
   }
 }
 

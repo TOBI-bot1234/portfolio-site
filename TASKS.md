@@ -19,7 +19,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
-- 2026-05-04 — Remove stray bug_sweep.py — commit none (untracked, deleted from disk)
+- 2026-05-04 — Remove stray bug_sweep.py (untracked, deleted from disk)
 - 2026-05-04 — Add theme-color meta to all pages — commit d37f745
 - 2026-05-04 — Add canonical links to all pages — commit 05addbf
 - 2026-05-04 — Consolidate duplicate .nav selector in styles.css — commit 5279dae

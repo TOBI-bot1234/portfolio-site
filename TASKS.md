@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Add `robots.txt` and `sitemap.xml` (Backlog #1)
+- (none)
 
 ## Backlog
 
@@ -12,6 +12,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-04 — Add robots.txt and sitemap.xml — commit ae51770
 - 2026-05-04 — Add skip-to-content link on all pages — commit b4f0f9f
 - 2026-05-04 — Swap cursor to Old Roblox style (32x32) — commit 4e1db6e
 - 2026-05-04 — Cursor: enlarge to 24x24 and make interior solid — commit 3e0e32d
@@ -21,7 +22,6 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-03 — Ambient animation: nav link hover underline — commit 1542e92
 - 2026-05-03 — Ambient animation: hero button hover lift — commit e8bc2f0
 - 2026-05-02 — Typewrite "talk to tobi" CTA after intro — commit 6a1ce43
-- 2026-05-02 — Flesh out README with description, live URL, and stack notes — commit b6b0bf4
 
 ## Needs Owen's input
 

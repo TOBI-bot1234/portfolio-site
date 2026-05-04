@@ -4,11 +4,12 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- (none)
+- Add canonical links — all pages missing `<link rel="canonical">` for SEO
 
 ## Backlog
 
-(none)
+1. Add theme-color meta — missing `<meta name="theme-color">` for Android browser chrome
+2. Clean up stray bug_sweep.py — untracked file in repo root
 
 ## Done (last 10)
 

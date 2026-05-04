@@ -8,10 +8,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-1. Consolidate duplicate `.nav` selector in `styles.css` — the selector is defined twice (lines ~62 and ~314, the second only adding `animation`). Merge into a single rule, no visual change. Pure refactor.
+(none)
 
 ## Done (last 10)
 
+- 2026-05-04 — Consolidate duplicate .nav selector in styles.css — commit 5279dae
 - 2026-05-04 — Add robots.txt and sitemap.xml — commit ae51770
 - 2026-05-04 — Add skip-to-content link on all pages — commit b4f0f9f
 - 2026-05-04 — Swap cursor to Old Roblox style (32x32) — commit 4e1db6e
@@ -21,7 +22,6 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-03 — Ambient animation: fade-in on load — commit 19ee39a
 - 2026-05-03 — Ambient animation: nav link hover underline — commit 1542e92
 - 2026-05-03 — Ambient animation: hero button hover lift — commit e8bc2f0
-- 2026-05-02 — Typewrite "talk to tobi" CTA after intro — commit 6a1ce43
 
 ## Needs Owen's input
 

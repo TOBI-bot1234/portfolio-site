@@ -10,6 +10,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 1. Add theme-color meta — missing `<meta name="theme-color">` for Android browser chrome
 2. Clean up stray bug_sweep.py — untracked file in repo root
+3. Sparkle effect on mouse hold — particles/sparkles appear when holding mouse button on non-interactive surfaces
 
 ## Done (last 10)
 

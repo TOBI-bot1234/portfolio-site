@@ -21,7 +21,6 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
-- 2026-05-04 — Shrink cursors from 32x32 to 24x24 — commit ca598bd
 - 2026-05-04 — Swap cursor to Old Roblox style (32x32) — commit 4e1db6e
 - 2026-05-04 — Cursor: enlarge to 24x24 and make interior solid — commit 3e0e32d
 - 2026-05-03 — Pixel-art retro cursor site-wide — commit e278acb

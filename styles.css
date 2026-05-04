@@ -35,7 +35,7 @@ body {
 /* Pixel-art cursors. Hotspot at the tip of the arrow / pointing finger. */
 @media (hover: hover) and (pointer: fine) {
   body {
-    cursor: url("assets/cursor.png") 1 1, auto;
+    cursor: url("assets/cursor.png") 3 3, auto;
   }
 
   a,
@@ -44,7 +44,7 @@ body {
   .btn,
   .intro-cta,
   .wordmark {
-    cursor: url("assets/cursor-pointer.png") 5 1, pointer;
+    cursor: url("assets/cursor-pointer.png") 7 3, pointer;
   }
 }
 

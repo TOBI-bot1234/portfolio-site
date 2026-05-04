@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Add canonical links — all pages missing `<link rel="canonical">` for SEO
+- (none)
 
 ## Backlog
 
@@ -12,6 +12,8 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 2. Clean up stray bug_sweep.py — untracked file in repo root
 
 ## Done (last 10)
+
+- 2026-05-04 — Add canonical links to all pages — commit 05addbf
 
 - 2026-05-04 — Consolidate duplicate .nav selector in styles.css — commit 5279dae
 - 2026-05-04 — Add robots.txt and sitemap.xml — commit ae51770

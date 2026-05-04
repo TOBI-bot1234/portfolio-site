@@ -4,12 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- (none)
+- Add `robots.txt` and `sitemap.xml` (Backlog #1)
 
 ## Backlog
 
-1. Add `robots.txt` and `sitemap.xml` — site is currently invisible to crawlers beyond default behaviour. Ship a permissive `robots.txt` and a hand-written `sitemap.xml` covering the four indexable pages (index, work, about, contact). Reference sitemap from robots.txt.
-2. Consolidate duplicate `.nav` selector in `styles.css` — the selector is defined twice (lines ~62 and ~314, the second only adding `animation`). Merge into a single rule, no visual change. Pure refactor.
+1. Consolidate duplicate `.nav` selector in `styles.css` — the selector is defined twice (lines ~62 and ~314, the second only adding `animation`). Merge into a single rule, no visual change. Pure refactor.
 
 ## Done (last 10)
 

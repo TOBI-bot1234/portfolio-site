@@ -1,4 +1,4 @@
-Sitemap: https://tobi-bot1234.github.io/portfolio-site/sitemap.xml
-
 User-agent: *
 Allow: /
+
+Sitemap: https://tobi-bot1234.github.io/portfolio-site/sitemap.xml

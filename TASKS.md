@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-1. Add JSON-LD Person structured data to all pages
+(none)
 
 ## Backlog
 
@@ -20,6 +20,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-05 — Add JSON-LD Person structured data to all pages — commit 30e5e24
 - 2026-05-05 — Fix robots.txt Sitemap order + add color-scheme meta — commit b9f82ce
 - 2026-05-05 — Sparkle effect on mouse hold — commit b84f97a
 - 2026-05-04 — Remove stray bug_sweep.py (untracked, deleted from disk)
@@ -29,4 +30,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-04 — Add robots.txt and sitemap.xml — commit ae51770
 - 2026-05-04 — Add skip-to-content link on all pages — commit b4f0f9f
 - 2026-05-04 — Swap cursor to Old Roblox style (32x32) — commit 4e1db6e
-- 2026-05-04 — Cursor: enlarge to 24x24 and make interior solid — commit 3e0e32d

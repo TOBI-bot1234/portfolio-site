@@ -8,8 +8,6 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-1. Update sitemap.xml lastmod dates — still show May 04 after May 05 commits.
-
 ## Needs Owen's input
 
 - Dark mode support — needs Owen's signoff on the dark palette before implementing.
@@ -20,6 +18,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-05 — Update sitemap.xml lastmod dates — commit f35ad2f
 - 2026-05-05 — Add JSON-LD Person structured data to all pages — commit 30e5e24
 - 2026-05-05 — Fix robots.txt Sitemap order + add color-scheme meta — commit b9f82ce
 - 2026-05-05 — Sparkle effect on mouse hold — commit b84f97a
@@ -29,4 +28,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-04 — Consolidate duplicate .nav selector in styles.css — commit 5279dae
 - 2026-05-04 — Add robots.txt and sitemap.xml — commit ae51770
 - 2026-05-04 — Add skip-to-content link on all pages — commit b4f0f9f
-- 2026-05-04 — Swap cursor to Old Roblox style (32x32) — commit 4e1db6e

@@ -4,16 +4,15 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+1. Add JSON-LD Person structured data to all pages
 
 ## Backlog
 
-1. Dark mode support — add `prefers-color-scheme: dark` CSS variables and invert sparkle/dark elements. Needs Owen's signoff on dark palette.
-2. Add JSON-LD Person structured data to all pages — helps Google/recruiters identify Owen.
-3. Update sitemap.xml lastmod dates — still show May 04 after May 05 commits.
+1. Update sitemap.xml lastmod dates — still show May 04 after May 05 commits.
 
 ## Needs Owen's input
 
+- Dark mode support — needs Owen's signoff on the dark palette before implementing.
 - Resume button — the broken `/resume.pdf` link has been removed from the hero. Reinstate when Owen drops a PDF at the repo root or provides a hosted URL.
 - "talk to tobi" link is currently a no-op. Decide where it should go (mailto, contact page anchor, future chat surface).
 - og:image — social previews currently use `twitter:card=summary` (no image). Provide a 1200x630 PNG or approve generating one, then upgrade to `summary_large_image`.

@@ -4,11 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- (none)
+- Sparkle effect on mouse hold
 
 ## Backlog
 
-1. Sparkle effect on mouse hold — particles/sparkles appear when holding mouse button on non-interactive surfaces
+(none)
 
 ## Needs Owen's input
 

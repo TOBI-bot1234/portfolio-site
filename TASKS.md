@@ -8,6 +8,9 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
+1. Add `<noscript>` fallback for typing animation on index.html — when JS is disabled, the intro `<p>` is blank because `data-intro` span stays empty and the CTA link stays hidden.
+2. Add `prefers-reduced-motion` guard to sparkle CSS animation — currently relies on JS early-return only; CSS-only guard is defense-in-depth.
+
 ## Needs Owen's input
 
 - Dark mode support — needs Owen's signoff on the dark palette before implementing.

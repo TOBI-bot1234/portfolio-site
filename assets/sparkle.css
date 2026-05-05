@@ -1,0 +1,19 @@
+.sparkle {
+  position: fixed;
+  background: #0a0a0a;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.85;
+  animation: sparkle-fly 450ms ease-out forwards;
+}
+
+@keyframes sparkle-fly {
+  0% {
+    opacity: 0.85;
+    transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--dx), var(--dy)) scale(0.2) rotate(var(--rot));
+  }
+}

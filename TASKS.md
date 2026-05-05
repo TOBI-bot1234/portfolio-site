@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Sparkle effect on mouse hold
+(none)
 
 ## Backlog
 
@@ -19,6 +19,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-05 — Sparkle effect on mouse hold — commit b84f97a
 - 2026-05-04 — Remove stray bug_sweep.py (untracked, deleted from disk)
 - 2026-05-04 — Add theme-color meta to all pages — commit d37f745
 - 2026-05-04 — Add canonical links to all pages — commit 05addbf
@@ -28,4 +29,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-04 — Swap cursor to Old Roblox style (32x32) — commit 4e1db6e
 - 2026-05-04 — Cursor: enlarge to 24x24 and make interior solid — commit 3e0e32d
 - 2026-05-03 — Pixel-art retro cursor site-wide — commit e278acb
-- 2026-05-03 — Ambient animation: wordmark micro-interaction — commit e52c757

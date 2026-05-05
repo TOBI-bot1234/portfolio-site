@@ -53,10 +53,18 @@
     container.appendChild(el);
     count++;
 
-    el.addEventListener('animationend', function () {
+    // Clean up: remove after animation ends OR after 2s safety net
+    var removed = false;
+    var cleanup = function () {
+      if (removed) return;
+      removed = true;
+      el.removeEventListener('animationend', cleanup);
+      clearTimeout(timeout_id);
       el.remove();
       count--;
-    });
+    };
+    var timeout_id = setTimeout(cleanup, 2000);
+    el.addEventListener('animationend', cleanup);
   }
 
   function onDown(e) {

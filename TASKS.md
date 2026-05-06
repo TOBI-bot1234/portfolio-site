@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Dark mode CSS variables — add prefers-color-scheme dark palette to styles.css, replace hardcoded colors with variables
+(none)
 
 ## Backlog
 
@@ -262,6 +262,7 @@ Replace the existing `<main>` contents:
 
 ## Done (last 10)
 
+- 2026-05-06 — Add dark mode CSS variables and prefers-color-scheme palette — commit d255d8a
 - 2026-05-06 — Add hand-drawn underline under hero word "thoughtful" — commit 0bb2522
 - 2026-05-06 — Wire contact page mailto link to owenbkelley@gmail.com — commit f858a50
 - 2026-05-06 — Add JSON-LD WebSite structured data to index.html — commit 1624c6b
@@ -271,4 +272,3 @@ Replace the existing `<main>` contents:
 - 2026-05-06 — Add `<noscript>` fallback for typing animation on index.html — commit 6cb9255
 - 2026-05-05 — Add 2s safety timeout for sparkle cleanup — commit ec4256a
 - 2026-05-05 — Update sitemap.xml lastmod dates — commit f35ad2f
-- 2026-05-05 — Add JSON-LD Person structured data to all pages — commit 30e5e24

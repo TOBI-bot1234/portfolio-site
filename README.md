@@ -1,6 +1,6 @@
 # portfolio-site
 
-Personal portfolio site for Owen Kelley. A small, deliberately plain set of pages introducing Tobi, his work, and how to get in touch.
+Personal portfolio site for Owen Kelley. A small, deliberately plain set of pages introducing him, his work, and how to get in touch.
 
 Live: https://tobi-bot1234.github.io/portfolio-site/
 

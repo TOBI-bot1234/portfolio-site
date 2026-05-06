@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Hand-drawn underline under the hero word "thoughtful"
+(none)
 
 ## Backlog
 
@@ -13,10 +13,10 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 3. "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
 4. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
 5. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
-7. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
-8. Wire the tagline doodle into the hero — see brief below
-9. Make the 404 page actually fun — see brief below
-10. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
+6. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
+7. Wire the tagline doodle into the hero — see brief below
+8. Make the 404 page actually fun — see brief below
+9. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
 
 ---
 
@@ -318,6 +318,7 @@ Replace the existing `<main>` contents:
 
 ## Done (last 10)
 
+- 2026-05-06 — Add hand-drawn underline under hero word "thoughtful" — commit 0bb2522
 - 2026-05-06 — Wire contact page mailto link to owenbkelley@gmail.com — commit f858a50
 - 2026-05-06 — Add JSON-LD WebSite structured data to index.html — commit 1624c6b
 - 2026-05-06 — Clean .gitignore — remove unused framework-specific entries — commit eaa544e
@@ -327,4 +328,3 @@ Replace the existing `<main>` contents:
 - 2026-05-05 — Add 2s safety timeout for sparkle cleanup — commit ec4256a
 - 2026-05-05 — Update sitemap.xml lastmod dates — commit f35ad2f
 - 2026-05-05 — Add JSON-LD Person structured data to all pages — commit 30e5e24
-- 2026-05-05 — Fix robots.txt Sitemap order + add color-scheme meta — commit b9f82ce

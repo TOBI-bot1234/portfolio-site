@@ -57,6 +57,19 @@
     </div>
   </main>
 
+  <noscript>
+    <style>
+      .intro-text::after {
+        content: "Hey! — talk to Tobi";
+      }
+      .intro-caret {
+        display: none !important;
+      }
+      [data-intro-cta] {
+        display: inline !important;
+      }
+    </style>
+  </noscript>
   <script>
     (function () {
       var textEl = document.querySelector('[data-intro]');

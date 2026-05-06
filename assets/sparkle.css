@@ -17,3 +17,10 @@
     transform: translate(var(--dx), var(--dy)) scale(0.2) rotate(var(--rot));
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .sparkle {
+    animation: none;
+    opacity: 0;
+  }
+}

@@ -3,13 +3,11 @@
 Single source of truth for portfolio-site work. See "Task tracker" in Bob's instructions for the workflow.
 ## In progress
 
-- Fix README.md typo ("Tobi" -> "Owen Kelley")
+- Add JSON-LD WebSite + SearchAction schema to index.html — recommended for homepage with Person schema
 
 ## Backlog
 
-2. Add JSON-LD WebSite + SearchAction schema to index.html — recommended for homepage with Person schema
-3. Clean .gitignore — remove framework-specific entries (node_modules, .next, pnpm) irrelevant to static site
-4. Add email link to contact.html — page is all placeholder, at minimum add mailto: link
+3. Add email link to contact.html — page is all placeholder, at minimum add mailto: link
 
 ## Needs Owen's input
 
@@ -21,6 +19,8 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-06 — Clean .gitignore — remove unused framework-specific entries — commit eaa544e
+- 2026-05-06 — Fix README.md "Tobi" reference to "him" — commit c7e194e
 - 2026-05-06 — Add `prefers-reduced-motion` guard to sparkle CSS animation — commit a12a5e1
 - 2026-05-06 — Add `<noscript>` fallback for typing animation on index.html — commit 6cb9255
 - 2026-05-05 — Add 2s safety timeout for sparkle cleanup — commit ec4256a
@@ -29,5 +29,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-05 — Fix robots.txt Sitemap order + add color-scheme meta — commit b9f82ce
 - 2026-05-05 — Sparkle effect on mouse hold — commit b84f97a
 - 2026-05-04 — Remove stray bug_sweep.py (untracked, deleted from disk)
-- 2026-05-04 — Add theme-color meta to all pages — commit d37f745
-- 2026-05-04 — Add canonical links to all pages — commit 05addbf

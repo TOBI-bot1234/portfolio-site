@@ -20,64 +20,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ---
 
-### Task 6 — Hand-drawn underline under the hero word "thoughtful"
-
-**Why.** `desktop-fold.png` shows a perfectly typeset hero stack: "Building thoughtful software, / one detail at a time." in clean Inter, no marginalia, no ink. The vision-review summary called it out as "very template-like… exact structure and spacing you'd expect from a Tailwind UI hero section." A doodle site needs a single, deliberate hand mark in the most-seen place. We pick the word "thoughtful" and underline it the way you'd underline a word in a notebook when you wanted yourself to remember it later.
-
-**Files to touch.**
-- `index.html` — wrap the word `thoughtful` in a `<span class="hero-doodle-word">` containing the word and an inline SVG sibling `<svg class="hero-doodle-underline" …>`.
-- `styles.css` — add the `.hero-doodle-word` and `.hero-doodle-underline` rules described below. No other rules may be modified.
-
-**Exact markup change in `index.html`.**
-Replace the line currently reading `Building thoughtful software,<br />` with:
-
-```html
-Building <span class="hero-doodle-word">thoughtful<svg class="hero-doodle-underline" viewBox="0 0 220 18" aria-hidden="true" focusable="false" preserveAspectRatio="none"><path d="M3 11 C 30 4, 70 16, 110 9 S 190 5, 217 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" /></svg></span> software,<br />
-```
-
-(The path is an intentionally wobbly ink stroke — two cubic curves that overshoot the baseline. Do not "clean it up.")
-
-**Exact CSS to add (append to the end of `styles.css`, before the final `@media (prefers-reduced-motion: reduce)` block — or as its own block, your choice):**
-
-```css
-.hero-doodle-word {
-  position: relative;
-  display: inline-block;
-  white-space: nowrap;
-}
-.hero-doodle-underline {
-  position: absolute;
-  left: -2%;
-  right: -2%;
-  bottom: -0.18em;
-  width: 104%;
-  height: 0.34em;
-  color: var(--fg);
-  pointer-events: none;
-  overflow: visible;
-}
-```
-
-**Visual / behavior spec.**
-- Underline sits beneath "thoughtful" only, not the rest of the line.
-- The stroke visually overshoots both edges of the word by ~2% (intentional — a notebook underline always overshoots).
-- Stroke is `currentColor`, so it inherits black on light and will inherit any future dark-mode foreground.
-- No animation in this task. Static SVG only.
-- No layout shift: `position: absolute` on the SVG keeps text metrics identical.
-
-**Acceptance criteria.**
-- [ ] Word "thoughtful" appears with a wobbly underline beneath it on desktop and mobile.
-- [ ] Underline is the same color as body text (`var(--fg)`).
-- [ ] Underline overshoots the left and right edges of the word.
-- [ ] Removing the SVG produces zero visual diff to the rest of the hero (no reflow).
-- [ ] No JavaScript changes.
-- [ ] `prefers-reduced-motion` users see exactly the same thing (this task adds no motion).
-
-**Out of scope.** Do not touch button styles, do not touch the typing intro, do not change the hero font.
-
----
-
-### Task 7 — Create `assets/tagline-doodle.svg`
+### Task 6 — Create `assets/tagline-doodle.svg`
 
 **Why.** `desktop-full.png` review noted: "massive empty space below the hero content… reads as 'just a div'… seems like placeholder space waiting for content." A small hand-drawn ink mark in the lower hero — a curved arrow pointing from empty space toward the "View work" button with the word "start here" — turns the dead zone into intentional marginalia. We're shipping the asset on its own first so the next task can wire it in cleanly.
 

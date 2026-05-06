@@ -7,7 +7,10 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-(none)
+1. Fix README.md — says "introducing Tobi" instead of "Owen Kelley"
+2. Add JSON-LD WebSite + SearchAction schema to index.html — recommended for homepage with Person schema
+3. Clean .gitignore — remove framework-specific entries (node_modules, .next, pnpm) irrelevant to static site
+4. Add email link to contact.html — page is all placeholder, at minimum add mailto: link
 
 ## Needs Owen's input
 

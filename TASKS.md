@@ -1,12 +1,13 @@
 # Tasks
 
 Single source of truth for portfolio-site work. See "Task tracker" in Bob's instructions for the workflow.
-
 ## In progress
 
-- Add `prefers-reduced-motion` guard to sparkle CSS animation
+(none)
 
 ## Backlog
+
+(none)
 
 ## Needs Owen's input
 
@@ -18,6 +19,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-06 — Add `prefers-reduced-motion` guard to sparkle CSS animation — commit a12a5e1
 - 2026-05-06 — Add `<noscript>` fallback for typing animation on index.html — commit 6cb9255
 - 2026-05-05 — Add 2s safety timeout for sparkle cleanup — commit ec4256a
 - 2026-05-05 — Update sitemap.xml lastmod dates — commit f35ad2f
@@ -27,4 +29,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-04 — Remove stray bug_sweep.py (untracked, deleted from disk)
 - 2026-05-04 — Add theme-color meta to all pages — commit d37f745
 - 2026-05-04 — Add canonical links to all pages — commit 05addbf
-- 2026-05-04 — Consolidate duplicate .nav selector in styles.css — commit 5279dae

@@ -4,11 +4,9 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- Add `prefers-reduced-motion` guard to sparkle CSS animation
 
 ## Backlog
-
-1. Add `prefers-reduced-motion` guard to sparkle CSS animation — currently relies on JS early-return only; CSS-only guard is defense-in-depth.
 
 ## Needs Owen's input
 

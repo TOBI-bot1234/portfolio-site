@@ -8,15 +8,17 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-1. Dark mode support — implement dark palette (Owen gave signoff to use my judgment)
-2. Resume button — wire `/resume.pdf` link back to hero. Owen will drop PDF at repo root as `resume.pdf`.
-3. "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
-4. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
-5. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
-6. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
-7. Wire the tagline doodle into the hero — see brief below
-8. Make the 404 page actually fun — see brief below
-9. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
+1. Dark mode CSS variables — add prefers-color-scheme dark palette to styles.css, replace hardcoded colors with variables
+2. Dark mode sparkle colors — fix sparkle particle background for dark background (sparkle.css)
+3. Dark mode meta tags — update color-scheme meta to "light dark" on all pages, add dark theme-color
+4. Resume button — wire `/resume.pdf` link back to hero. Owen will drop PDF at repo root as `resume.pdf`.
+5. "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
+6. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
+7. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
+8. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
+9. Wire the tagline doodle into the hero — see brief below
+10. Make the 404 page actually fun — see brief below
+11. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
 
 ---
 

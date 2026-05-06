@@ -1,22 +1,23 @@
 # Tasks
 
 Single source of truth for portfolio-site work. See "Task tracker" in Bob's instructions for the workflow.
+
 ## In progress
 
 (none)
 
 ## Backlog
 
-(none)
+1. Wire contact page mailto link — update `contact.html` to use `owenbkelley@gmail.com`
+2. Dark mode support — implement dark palette (Owen gave signoff to use my judgment)
+3. Resume button — wire `/resume.pdf` link back to hero. Owen will drop PDF at repo root as `resume.pdf`.
+4. "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
+5. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
+6. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
 
 ## Needs Owen's input
 
-- Contact page — needs Owen's email address to wire the `mailto:` link currently left as placeholder.
-- Dark mode support — needs Owen's signoff on the dark palette before implementing.
-- Resume button — the broken `/resume.pdf` link has been removed from the hero. Reinstate when Owen drops a PDF at the repo root or provides a hosted URL.
-- "talk to tobi" link is currently a no-op. Decide where it should go (mailto, contact page anchor, future chat surface).
-- og:image — social previews currently use `twitter:card=summary` (no image). Provide a 1200x630 PNG or approve generating one, then upgrade to `summary_large_image`.
-- Cursor art — Old Roblox cursor (SweezyCursors) downscaled to 32x32 RGBA. Swap the PNGs (same filenames) for a different style if you want.
+(none)
 
 ## Done (last 10)
 

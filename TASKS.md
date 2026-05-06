@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- Wire contact page mailto link — update `contact.html` to use `owenbkelley@gmail.com`
 
 ## Backlog
 

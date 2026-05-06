@@ -345,6 +345,25 @@ a:focus-visible,
   animation: ambient-fade-in 600ms ease-out 160ms both;
 }
 
+/* Hand-drawn ink underline under "thoughtful" word in hero */
+.hero-doodle-word {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+.hero-doodle-underline {
+  position: absolute;
+  left: -2%;
+  right: -2%;
+  bottom: -0.18em;
+  width: 104%;
+  height: 0.34em;
+  color: var(--fg);
+  pointer-events: none;
+  overflow: visible;
+}
+
+/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .nav,
   .hero,

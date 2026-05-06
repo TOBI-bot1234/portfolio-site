@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- Hand-drawn underline under the hero word "thoughtful"
 
 ## Backlog
 
@@ -13,7 +13,6 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 3. "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
 4. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
 5. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
-6. Hand-drawn underline under the hero word "thoughtful" — see brief below
 7. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
 8. Wire the tagline doodle into the hero — see brief below
 9. Make the 404 page actually fun — see brief below

@@ -2,8 +2,20 @@
   --bg: #ffffff;
   --fg: #0a0a0a;
   --border: #0a0a0a;
+  --muted: #8a8a8a;
+  --shadow: 0 6px 16px -8px rgba(10, 10, 10, 0.25);
   --max-w: 1200px;
   --pad-x: clamp(1.25rem, 4vw, 3rem);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f0f11;
+    --fg: #e8e8e8;
+    --border: #e8e8e8;
+    --muted: #6e6e72;
+    --shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.5);
+  }
 }
 
 *,
@@ -84,7 +96,7 @@ a {
 a:focus-visible,
 .btn:focus-visible {
   outline: 2px solid var(--fg);
-  outline-offset: 3px;
+  outline-offset: 4px;
 }
 
 .nav {
@@ -135,7 +147,7 @@ a:focus-visible,
   margin: 0;
   font-size: 0.8125rem;
   line-height: 1.4;
-  color: #8a8a8a;
+  color: var(--muted);
   max-width: 38ch;
   min-height: 1.4em;
 }
@@ -145,7 +157,7 @@ a:focus-visible,
   width: 1px;
   height: 0.95em;
   margin-left: 1px;
-  background: #8a8a8a;
+  background: var(--muted);
   vertical-align: -0.12em;
   animation: intro-blink 1s steps(1, end) infinite;
 }
@@ -156,8 +168,8 @@ a:focus-visible,
 }
 
 .intro-cta {
-  color: #8a8a8a;
-  border-bottom: 1px solid #8a8a8a;
+  color: var(--muted);
+  border-bottom: 1px solid var(--muted);
   padding-bottom: 1px;
   transition: color 150ms ease, border-color 150ms ease;
 }
@@ -260,7 +272,7 @@ a:focus-visible,
 .btn:hover,
 .btn:focus-visible {
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px -8px rgba(10, 10, 10, 0.25);
+  box-shadow: var(--shadow);
 }
 
 @media (prefers-reduced-motion: reduce) {

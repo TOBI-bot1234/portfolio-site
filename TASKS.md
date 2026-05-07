@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- Make the 404 page actually fun — see brief below
 
 ## Backlog
 

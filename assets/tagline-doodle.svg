@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 90" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+  <path d="M12 14 C 28 8, 50 22, 60 38 S 70 64, 92 70" />
+  <path d="M86 62 L 92 70 L 100 64" />
+  <text x="6" y="48" font-family="'Caveat','Patrick Hand','Comic Sans MS',cursive" font-size="20" fill="currentColor" stroke="none" transform="rotate(-8 6 48)">start here</text>
+</svg>

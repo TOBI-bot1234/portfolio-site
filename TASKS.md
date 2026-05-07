@@ -4,21 +4,20 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
 
 ## Backlog
 
-1. "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
-3. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
-4. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
-5. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
-6. Wire the tagline doodle into the hero — see brief below
-7. Make the 404 page actually fun — see brief below
-8. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
+1. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
+2. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
+3. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
+4. Wire the tagline doodle into the hero — see brief below
+5. Make the 404 page actually fun — see brief below
+6. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
 
 ---
 
-### Task 6 — Create `assets/tagline-doodle.svg`
+### Task 3 — Create `assets/tagline-doodle.svg`
 
 **Why.** `desktop-full.png` review noted: "massive empty space below the hero content… reads as 'just a div'… seems like placeholder space waiting for content." A small hand-drawn ink mark in the lower hero — a curved arrow pointing from empty space toward the "View work" button with the word "start here" — turns the dead zone into intentional marginalia. We're shipping the asset on its own first so the next task can wire it in cleanly.
 
@@ -50,11 +49,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ---
 
-### Task 8 — Wire the tagline doodle into the hero
+### Task 4 — Wire the tagline doodle into the hero
 
-**Why.** Standalone SVG file from task 7 needs a home. We place it in the lower-right of the hero block, near the "Get in touch" button — small (max 140px wide), pointing toward "View work" so it reads as an arrow guiding the eye to the primary CTA. This is the moment the page stops looking like a Tailwind starter.
+**Why.** Standalone SVG file from task 3 needs a home. We place it in the lower-right of the hero block, near the "Get in touch" button — small (max 140px wide), pointing toward "View work" so it reads as an arrow guiding the eye to the primary CTA. This is the moment the page stops looking like a Tailwind starter.
 
-**Depends on.** Task 7 must be merged first.
+**Depends on.** Task 3 must be merged first.
 
 **Files to touch.**
 - `index.html` — insert one new element inside `<main class="hero">`, immediately *after* the `<div class="hero-actions">…</div>` block.
@@ -102,7 +101,7 @@ Immediately after the closing `</div>` of `.hero-actions`, insert:
 
 ---
 
-### Task 9 — Make the 404 page actually fun
+### Task 5 — Make the 404 page actually fun
 
 **Why.** `404.html` currently reads: "That page does not exist, or it has moved." That is a SaaS funeral, not a doodle. Every doodle site has one moment where a tiny human voice peeks through, and the 404 is the cheapest, highest-upside place to put it. We replace the dead body copy with a single hand-feeling sentence and a tiny inline doodle of a crumpled paper.
 
@@ -160,7 +159,7 @@ Replace the existing `<main>` block contents:
 
 ---
 
-### Task 10 — Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list
+### Task 6 — Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list
 
 **Why.** `desktop-full.png` review: the Work page is one filler sentence. A portfolio without work is a bigger lie than a portfolio that admits it's mid-build. The doodle move here is to *show the work-in-progress as work-in-progress* — a hand-numbered list with deliberately vague, honest entries. This makes the empty state feel intentional instead of unfinished. **Approval note:** Owen has not approved entry copy. I am picking three honest placeholders that don't overcommit. Owen can rewrite later; the structure is what matters.
 

@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
+(none)
 
 ## Backlog
 
@@ -258,13 +258,13 @@ Replace the existing `<main>` contents:
 
 ## Done (last 10)
 
+- 2026-05-07 — "Talk to Tobi" placeholder chat page, wired CTA link in hero — commit 3141446
 - 2026-05-07 — Resume button in hero with dashed-outline variant — commit bc13a24
 - 2026-05-07 — Dark mode meta tags — color-scheme and theme-color updated on all pages — commit c72abc0
 - 2026-05-07 — Fix sparkle particles to adapt to dark mode via --fg CSS variable — commit 0186b2d
 - 2026-05-06 — Add dark mode CSS variables and prefers-color-scheme palette — commit d255d8a
 - 2026-05-06 — Add hand-drawn underline under hero word "thoughtful" — commit 0bb2522
 - 2026-05-06 — Wire contact page mailto link to owenbkelley@gmail.com — commit f858a50
-- 2026-05-06 — Add JSON-LD WebSite structured data to index.html — commit 1624c6b
+- 2026-05-06 — Add JSON-LD structured data to index.html — commit 1624c6b
 - 2026-05-06 — Clean .gitignore — remove unused framework-specific entries — commit eaa544e
 - 2026-05-06 — Fix README.md "Tobi" reference to "him" — commit c7e194e
-- 2026-05-06 — Add `prefers-reduced-motion` guard to sparkle CSS animation — commit a12a5e1

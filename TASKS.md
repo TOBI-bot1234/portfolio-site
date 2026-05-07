@@ -4,12 +4,12 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
 
 ## Backlog
 
-1. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
-2. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
+1. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
+2. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
 3. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
 4. Wire the tagline doodle into the hero — see brief below
 5. Make the 404 page actually fun — see brief below

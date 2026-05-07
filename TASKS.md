@@ -4,17 +4,16 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- Wire the tagline doodle into the hero
 
 ## Backlog
 
-1. Wire the tagline doodle into the hero — see brief below
-2. Make the 404 page actually fun — see brief below
-3. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
-4. Add a small doodled sigil + one-line sign-off footer to all pages — see brief below
-5. Replace `chat.html` body copy with a doodle-style placeholder — see brief below
-6. Replace `about.html` body copy with a tighter two-line manifesto — see brief below
-7. Loosen mobile spacing under the hero buttons — see brief below
+1. Make the 404 page actually fun — see brief below
+2. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
+3. Add a small doodled sigil + one-line sign-off footer to all pages — see brief below
+4. Replace `chat.html` body copy with a doodle-style placeholder — see brief below
+5. Replace `about.html` body copy with a tighter two-line manifesto — see brief below
+6. Loosen mobile spacing under the hero buttons — see brief below
 
 ## Done (last 10)
 

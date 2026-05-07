@@ -4,13 +4,12 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Add a small doodled sigil + one-line sign-off footer to all pages — see brief below
+- Replace `about.html` body copy with a tighter two-line manifesto — see brief below
 
 ## Backlog
 
-1. Add a small doodled sigil + one-line sign-off footer to all pages — see brief below
-2. Replace `about.html` body copy with a tighter two-line manifesto — see brief below
-3. Loosen mobile spacing under the hero buttons — see brief below
+1. Replace `about.html` body copy with a tighter two-line manifesto — see brief below
+2. Loosen mobile spacing under the hero buttons — see brief below
 
 ## Needs Owen's input
 
@@ -18,6 +17,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-07 — Add global footer with doodle sigil to all pages — 2e35ff3
 - 2026-05-07 — Replace work.html with hand-numbered "things in progress" list — f440e04
 - 2026-05-07 — Replace chat.html body copy with doodle-style placeholder — c3bc3ba
 - 2026-05-07 — Make the 404 page actually fun — 80a6807
@@ -27,7 +27,6 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-07 — og:image — d9a4fee
 - 2026-05-07 — "Talk to Tobi" placeholder chat page, wired CTA link in hero — commit 3141446
 - 2026-05-07 — Resume button in hero with dashed-outline variant — commit bc13a24
-- 2026-05-07 — Dark mode meta tags — color-scheme and theme-color updated on all pages — commit c72abc0
 - 2026-05-07 — Fix sparkle particles to adapt to dark mode via --fg CSS variable — commit 0186b2d
 
 ---

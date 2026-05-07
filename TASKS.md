@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Dark mode sparkle colors — fix sparkle particle background for dark background (sparkle.css)
+(none)
 
 ## Backlog
 
@@ -261,6 +261,7 @@ Replace the existing `<main>` contents:
 
 ## Done (last 10)
 
+- 2026-05-07 — Fix sparkle particles to adapt to dark mode via --fg CSS variable — commit 0186b2d
 - 2026-05-06 — Add dark mode CSS variables and prefers-color-scheme palette — commit d255d8a
 - 2026-05-06 — Add hand-drawn underline under hero word "thoughtful" — commit 0bb2522
 - 2026-05-06 — Wire contact page mailto link to owenbkelley@gmail.com — commit f858a50

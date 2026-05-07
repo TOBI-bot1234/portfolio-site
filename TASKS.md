@@ -4,11 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- Resume button — wire `/resume.pdf` link back to hero (task 1)
 
 ## Backlog
 
-1. Resume button — wire `/resume.pdf` link back to hero. Owen will drop PDF at repo root as `resume.pdf`.
+1. ~Resume button — wire `/resume.pdf` link back to hero. Owen will drop PDF at repo root as `resume.pdf`.~
 2. "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
 3. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
 4. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors

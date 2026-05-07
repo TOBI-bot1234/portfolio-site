@@ -29,6 +29,12 @@
     return false;
   }
 
+  /* Confetti palette — colors that pop on both light and dark backgrounds. */
+  var palette = [
+    '#ef4444', '#f97316', '#eab308', '#22c55e',
+    '#3b82f6', '#8b5cf6', '#ec4899', '#14b8a6'
+  ];
+
   function spawn(x, y) {
     if (count >= MAX_PARTICLES) return;
 
@@ -41,11 +47,13 @@
     var dy = Math.sin(angle) * dist;
     var size = 2 + Math.random() * 3;
     var rotation = Math.random() * 180 - 90;
+    var color = palette[Math.floor(Math.random() * palette.length)];
 
     el.style.left = x + 'px';
     el.style.top = y + 'px';
     el.style.width = size + 'px';
     el.style.height = size + 'px';
+    el.style.background = color;
     el.style.setProperty('--dx', dx + 'px');
     el.style.setProperty('--dy', dy + 'px');
     el.style.setProperty('--rot', rotation + 'deg');

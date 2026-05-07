@@ -4,14 +4,13 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
+- Add a small doodled sigil + one-line sign-off footer to all pages — see brief below
 
 ## Backlog
 
-1. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
-2. Add a small doodled sigil + one-line sign-off footer to all pages — see brief below
-3. Replace `about.html` body copy with a tighter two-line manifesto — see brief below
-4. Loosen mobile spacing under the hero buttons — see brief below
+1. Add a small doodled sigil + one-line sign-off footer to all pages — see brief below
+2. Replace `about.html` body copy with a tighter two-line manifesto — see brief below
+3. Loosen mobile spacing under the hero buttons — see brief below
 
 ## Needs Owen's input
 
@@ -19,6 +18,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-07 — Replace work.html with hand-numbered "things in progress" list — f440e04
 - 2026-05-07 — Replace chat.html body copy with doodle-style placeholder — c3bc3ba
 - 2026-05-07 — Make the 404 page actually fun — 80a6807
 - 2026-05-07 — Wire tagline doodle into hero section — d00a248

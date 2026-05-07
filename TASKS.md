@@ -4,12 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Resume button — wire `/resume.pdf` link back to hero (task 1)
+(none)
 
 ## Backlog
 
-1. ~Resume button — wire `/resume.pdf` link back to hero. Owen will drop PDF at repo root as `resume.pdf`.~
-2. "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
+1. "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
 3. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
 4. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
 5. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
@@ -260,6 +259,7 @@ Replace the existing `<main>` contents:
 
 ## Done (last 10)
 
+- 2026-05-07 — Resume button in hero with dashed-outline variant — commit bc13a24
 - 2026-05-07 — Dark mode meta tags — color-scheme and theme-color updated on all pages — commit c72abc0
 - 2026-05-07 — Fix sparkle particles to adapt to dark mode via --fg CSS variable — commit 0186b2d
 - 2026-05-06 — Add dark mode CSS variables and prefers-color-scheme palette — commit d255d8a
@@ -269,4 +269,3 @@ Replace the existing `<main>` contents:
 - 2026-05-06 — Clean .gitignore — remove unused framework-specific entries — commit eaa544e
 - 2026-05-06 — Fix README.md "Tobi" reference to "him" — commit c7e194e
 - 2026-05-06 — Add `prefers-reduced-motion` guard to sparkle CSS animation — commit a12a5e1
-- 2026-05-06 — Add `<noscript>` fallback for typing animation on index.html — commit 6cb9255

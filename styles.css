@@ -275,6 +275,10 @@ a:focus-visible,
   box-shadow: var(--shadow);
 }
 
+.btn-outline {
+  border-style: dashed;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;

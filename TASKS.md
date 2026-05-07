@@ -4,12 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Replace `about.html` body copy with a tighter two-line manifesto — see brief below
+(none)
 
 ## Backlog
 
-1. Replace `about.html` body copy with a tighter two-line manifesto — see brief below
-2. Loosen mobile spacing under the hero buttons — see brief below
+(none)
 
 ## Needs Owen's input
 
@@ -17,6 +16,8 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-07 — Loosen mobile hero button spacing — 729f58a
+- 2026-05-07 — Replace about.html with tighter two-line manifesto — 967c5e4
 - 2026-05-07 — Add global footer with doodle sigil to all pages — 2e35ff3
 - 2026-05-07 — Replace work.html with hand-numbered "things in progress" list — f440e04
 - 2026-05-07 — Replace chat.html body copy with doodle-style placeholder — c3bc3ba
@@ -25,9 +26,6 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-07 — Add tagline doodle SVG asset — 9b6cc23
 - 2026-05-07 — Sparkle colors — change particles to confetti palette — 8154b73
 - 2026-05-07 — og:image — d9a4fee
-- 2026-05-07 — "Talk to Tobi" placeholder chat page, wired CTA link in hero — commit 3141446
-- 2026-05-07 — Resume button in hero with dashed-outline variant — commit bc13a24
-- 2026-05-07 — Fix sparkle particles to adapt to dark mode via --fg CSS variable — commit 0186b2d
 
 ---
 

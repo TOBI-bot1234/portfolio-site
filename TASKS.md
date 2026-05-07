@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- 1. Dark mode meta tags — update color-scheme meta to "light dark" on all pages, add dark theme-color
 
 ## Backlog
 

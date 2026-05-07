@@ -4,20 +4,31 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
+- Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
 
 ## Backlog
 
-1. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
-2. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
-3. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
-4. Wire the tagline doodle into the hero — see brief below
-5. Make the 404 page actually fun — see brief below
-6. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
-7. Add a small doodled sigil + one-line sign-off footer to all pages — see brief below
-8. Replace `chat.html` body copy with a doodle-style placeholder — see brief below
-9. Replace `about.html` body copy with a tighter two-line manifesto — see brief below
-10. Loosen mobile spacing under the hero buttons — see brief below
+1. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
+2. Wire the tagline doodle into the hero — see brief below
+3. Make the 404 page actually fun — see brief below
+4. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
+5. Add a small doodled sigil + one-line sign-off footer to all pages — see brief below
+6. Replace `chat.html` body copy with a doodle-style placeholder — see brief below
+7. Replace `about.html` body copy with a tighter two-line manifesto — see brief below
+8. Loosen mobile spacing under the hero buttons — see brief below
+
+## Done (last 10)
+
+- 2026-05-07 — og:image — d9a4fee
+- 2026-05-07 — "Talk to Tobi" placeholder chat page, wired CTA link in hero — commit 3141446
+- 2026-05-07 — Resume button in hero with dashed-outline variant — commit bc13a24
+- 2026-05-07 — Dark mode meta tags — color-scheme and theme-color updated on all pages — commit c72abc0
+- 2026-05-07 — Fix sparkle particles to adapt to dark mode via --fg CSS variable — commit 0186b2d
+- 2026-05-06 — Add dark mode CSS variables and prefers-color-scheme palette — commit d255d8a
+- 2026-05-06 — Add hand-drawn underline under hero word "thoughtful" — commit 0bb2522
+- 2026-05-06 — Wire contact page mailto link to owenbkelley@gmail.com — commit f858a50
+- 2026-05-06 — Add JSON-LD structured data to index.html — commit 1624c6b
+- 2026-05-06 — Clean .gitignore — remove unused framework-specific entries — commit eaa544e
 
 ---
 
@@ -513,20 +524,3 @@ Replace with:
 - [ ] No regression to the new hand-drawn underline under "thoughtful" — it still hugs the word at all viewports.
 
 **Out of scope.** Do not redesign the buttons. Do not change the desktop layout. Do not change the typography. Do not touch other pages' page-padding.
-
-## Needs Owen's input
-
-(none)
-
-## Done (last 10)
-
-- 2026-05-07 — "Talk to Tobi" placeholder chat page, wired CTA link in hero — commit 3141446
-- 2026-05-07 — Resume button in hero with dashed-outline variant — commit bc13a24
-- 2026-05-07 — Dark mode meta tags — color-scheme and theme-color updated on all pages — commit c72abc0
-- 2026-05-07 — Fix sparkle particles to adapt to dark mode via --fg CSS variable — commit 0186b2d
-- 2026-05-06 — Add dark mode CSS variables and prefers-color-scheme palette — commit d255d8a
-- 2026-05-06 — Add hand-drawn underline under hero word "thoughtful" — commit 0bb2522
-- 2026-05-06 — Wire contact page mailto link to owenbkelley@gmail.com — commit f858a50
-- 2026-05-06 — Add JSON-LD structured data to index.html — commit 1624c6b
-- 2026-05-06 — Clean .gitignore — remove unused framework-specific entries — commit eaa544e
-- 2026-05-06 — Fix README.md "Tobi" reference to "him" — commit c7e194e

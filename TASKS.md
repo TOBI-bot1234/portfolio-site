@@ -4,19 +4,18 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- 1. Dark mode meta tags — update color-scheme meta to "light dark" on all pages, add dark theme-color
+(none)
 
 ## Backlog
 
-1. Dark mode meta tags — update color-scheme meta to "light dark" on all pages, add dark theme-color
-2. Resume button — wire `/resume.pdf` link back to hero. Owen will drop PDF at repo root as `resume.pdf`.
-3. "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
-4. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
-5. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
-6. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
-7. Wire the tagline doodle into the hero — see brief below
-8. Make the 404 page actually fun — see brief below
-9. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
+1. Resume button — wire `/resume.pdf` link back to hero. Owen will drop PDF at repo root as `resume.pdf`.
+2. "talk to tobi" link — create a new page that serves as a placeholder chat surface for the future
+3. og:image — generate or add a 1200x630 social preview image, upgrade `twitter:card` to `summary_large_image`
+4. Sparkle colors — change sparkle particles from solid dark to random confetti-like colors
+5. Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg` — see brief below
+6. Wire the tagline doodle into the hero — see brief below
+7. Make the 404 page actually fun — see brief below
+8. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
 
 ---
 
@@ -261,6 +260,7 @@ Replace the existing `<main>` contents:
 
 ## Done (last 10)
 
+- 2026-05-07 — Dark mode meta tags — color-scheme and theme-color updated on all pages — commit c72abc0
 - 2026-05-07 — Fix sparkle particles to adapt to dark mode via --fg CSS variable — commit 0186b2d
 - 2026-05-06 — Add dark mode CSS variables and prefers-color-scheme palette — commit d255d8a
 - 2026-05-06 — Add hand-drawn underline under hero word "thoughtful" — commit 0bb2522
@@ -270,5 +270,3 @@ Replace the existing `<main>` contents:
 - 2026-05-06 — Fix README.md "Tobi" reference to "him" — commit c7e194e
 - 2026-05-06 — Add `prefers-reduced-motion` guard to sparkle CSS animation — commit a12a5e1
 - 2026-05-06 — Add `<noscript>` fallback for typing animation on index.html — commit 6cb9255
-- 2026-05-05 — Add 2s safety timeout for sparkle cleanup — commit ec4256a
-- 2026-05-05 — Update sitemap.xml lastmod dates — commit f35ad2f

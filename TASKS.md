@@ -14,6 +14,10 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 4. Wire the tagline doodle into the hero — see brief below
 5. Make the 404 page actually fun — see brief below
 6. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
+7. Add a small doodled sigil + one-line sign-off footer to all pages — see brief below
+8. Replace `chat.html` body copy with a doodle-style placeholder — see brief below
+9. Replace `about.html` body copy with a tighter two-line manifesto — see brief below
+10. Loosen mobile spacing under the hero buttons — see brief below
 
 ---
 
@@ -251,6 +255,264 @@ Replace the existing `<main>` contents:
 **Out of scope.** Do not link the items anywhere. Do not add images. Do not touch about/contact/index.
 
 **Approval notes (this task).** Owen had not weighed in on the Work page copy — I'm setting the structure and a usable first draft so the page stops being one limp sentence. Owen can revise the three list items at any time without touching CSS.
+
+---
+
+### Task 7 — Add a small doodled sigil + one-line sign-off footer to all pages
+
+**Why.** Every screenshot in this cycle ends the same way: page content stops, white (or dark) space, edge of screen. The vision review explicitly flagged it on `desktop-full.png` ("page appears to end abruptly… no footer, no doodle elements") and on `mobile-full.png` ("page ends abruptly after 'Get in touch' with no footer padding or visual conclusion"). A portfolio that admits a hand made it should *sign* the page, not just cut to black. We add one global footer: a 18×18px scribble (three short ink dashes), the line "made by hand", and the year — quiet, consistent, ends every page on a small human note instead of a void.
+
+**Files to touch.**
+- `index.html` — insert one `<footer>` element immediately before the closing `</body>`, after the existing `<script>` tags.
+- `work.html` — same insert.
+- `about.html` — same insert.
+- `contact.html` — same insert.
+- `chat.html` — same insert.
+- `404.html` — same insert.
+- `styles.css` — append the new `.site-footer` rule block below.
+
+**Exact markup to insert in each of the six HTML files** (place immediately before `</body>`, after the last `<script>` line that already exists in that file):
+
+```html
+  <footer class="site-footer" role="contentinfo">
+    <svg class="site-footer-mark" viewBox="0 0 24 12" width="18" height="9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true" focusable="false">
+      <path d="M2 9 C 5 4, 7 9, 10 5" />
+      <path d="M12 8 C 14 5, 16 9, 18 6" />
+      <path d="M20 7 L 22 5" />
+    </svg>
+    <span class="site-footer-text">made by hand · 2026</span>
+  </footer>
+```
+
+**Exact CSS to add (append to end of `styles.css`):**
+
+```css
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.5rem var(--pad-x) 1.75rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+.site-footer-mark {
+  display: inline-block;
+  flex-shrink: 0;
+  transform: translateY(1px) rotate(-3deg);
+  opacity: 0.85;
+}
+.site-footer-text { white-space: nowrap; }
+@media (max-width: 640px) {
+  .site-footer { padding-top: 1.25rem; padding-bottom: 1.5rem; font-size: 0.72rem; }
+}
+```
+
+**Visual / behavior spec.**
+- Footer is centered, single horizontal row: small ink scribble on the left, "made by hand · 2026" text on the right.
+- Foreground inherits `var(--muted)` so it stays whisper-quiet in both light and dark modes.
+- The scribble is rotated -3° and at ~85% opacity to read as a margin mark, not a logo.
+- No motion, no link, no border above. Just a small human note where the page ends.
+- The 6 footer markups are byte-identical across the six pages so we can grep them later.
+
+**Acceptance criteria.**
+- [ ] All six pages (`index.html`, `work.html`, `about.html`, `contact.html`, `chat.html`, `404.html`) render the footer at the bottom.
+- [ ] Footer text reads exactly `made by hand · 2026` (with the middle-dot character).
+- [ ] Inline SVG renders inline with the text, vertically centered.
+- [ ] Footer text color matches `var(--muted)` and changes correctly in dark mode.
+- [ ] No JS added, no font loaded.
+- [ ] Markup is byte-identical across all six files (verify with a single-line `grep -c 'site-footer' *.html` returning 6 across files).
+
+**Out of scope.** Do not add social links, do not add a copyright symbol, do not add a back-to-top arrow, do not link the footer text. This task is the silent end-mark only.
+
+---
+
+### Task 8 — Replace `chat.html` body copy with a doodle-style placeholder
+
+**Why.** `chat.html` was just shipped (commit 3141446) but the page body reads like a 2014 SaaS "coming soon" placeholder: *"The chat surface is still under construction. For now, the best way to talk is by email."* Two stiff sentences. The hero teases "talk to Tobi" with a typing-animation reveal — and then this page lands on a corporate landing flat. A talk-to-Tobi page should sound like Tobi. We replace the body copy with one short, voicey paragraph + a hand-drawn arrow pointing at the email link.
+
+**Files to touch.**
+- `chat.html` — replace the contents of `<main class="page">` only.
+
+**Exact change.**
+Replace lines 44–54 (the `<main>` block) of `chat.html`:
+
+```html
+  <main class="page" id="main">
+    <h1 class="page-title">Talk to Tobi</h1>
+    <p class="page-body">
+      The chat surface is still under construction. For now, the best way
+      to talk is by email:
+      <a href="mailto:owenbkelley@gmail.com">owenbkelley@gmail.com</a>
+    </p>
+    <p class="page-body">
+      This page will become a real conversational interface eventually.
+    </p>
+  </main>
+```
+
+…with:
+
+```html
+  <main class="page" id="main">
+    <h1 class="page-title">Talk to Tobi</h1>
+    <p class="page-body">
+      The "real" version of this page is a chat box you can type into.
+      It is not built yet. (Soon.) In the meantime, email works perfectly fine
+      and I read everything that arrives —
+      <svg viewBox="0 0 40 18" width="34" height="14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" style="vertical-align:-2px;margin:0 4px;">
+        <path d="M2 9 C 12 3, 22 15, 34 9" />
+        <path d="M28 5 L 34 9 L 28 13" />
+      </svg>
+      <a class="page-link" href="mailto:owenbkelley@gmail.com">owenbkelley@gmail.com</a>.
+    </p>
+    <p class="page-body">
+      Subject line is optional. Pleasantries are encouraged but not required.
+    </p>
+  </main>
+```
+
+**Visual / behavior spec.**
+- Title stays "Talk to Tobi" (unchanged).
+- Body becomes one warmer paragraph with an inline ink-arrow doodle pointing at the email link, plus a one-line dry follow-up.
+- The email becomes a `.page-link` (already-styled underlined link) instead of a bare `<a>`.
+- Inline arrow is ~34×14px, baseline-aligned, with 4px of horizontal margin on each side.
+- No CSS changes required.
+
+**Acceptance criteria.**
+- [ ] `chat.html` renders the new two-paragraph body verbatim.
+- [ ] The email address is wrapped in a `<a class="page-link">` and points at `mailto:owenbkelley@gmail.com`.
+- [ ] An inline curved-arrow SVG appears between the prose and the email link.
+- [ ] No `styles.css` changes.
+- [ ] Page passes basic HTML validation (no unclosed tags).
+
+**Out of scope.** Do not actually build a chat surface. Do not add a form. Do not change the page title or meta tags.
+
+---
+
+### Task 9 — Replace `about.html` body copy with a tighter two-line manifesto
+
+**Why.** Current `about.html` body reads: *"Engineer and designer. I care about restraint, performance, and the small details that make software feel solid. A longer version of this page is coming soon."* The first sentence is a LinkedIn headline, the second is an apology. Neither earns the reader's eye. We swap in two short, declarative lines that *show* taste instead of describing it. The fix is copy-only — no markup, no CSS, no risk to layout — and it stops the About page reading like a stub. Honest scope: this is a holding move until Owen writes a real About; the structure stays so a longer essay can replace it later in one paste.
+
+**Files to touch.**
+- `about.html` — replace the body of `<main>` (lines 44–53) only. Title and chrome stay.
+
+**Exact change.**
+Replace:
+
+```html
+    <h1 class="page-title">About</h1>
+    <p class="page-body">
+      Engineer and designer. I care about restraint, performance, and the
+      small details that make software feel solid.
+    </p>
+    <p class="page-body">
+      A longer version of this page is coming soon.
+    </p>
+```
+
+…with:
+
+```html
+    <h1 class="page-title">About</h1>
+    <p class="page-body">
+      I write software the way I'd want someone else to write it for me —
+      with patience for the small parts most people skip past.
+    </p>
+    <p class="page-body">
+      Currently writing more than I'm shipping. Both will tilt back to balance soon.
+    </p>
+```
+
+**Visual / behavior spec.**
+- No layout, no font, no color changes. The two `<p class="page-body">` paragraphs already have the correct styling.
+- Length is intentional: ~30 words total, fits in roughly four lines on desktop.
+- Uses an em-dash, not an en-dash; uses the proper apostrophe character `'` (U+2019) in "I'd" / "I'm" — render verbatim.
+
+**Acceptance criteria.**
+- [ ] `about.html` renders the new two paragraphs verbatim.
+- [ ] No CSS or HTML structural changes; only the inner text of the two paragraphs is altered.
+- [ ] No JavaScript added.
+- [ ] Page still validates.
+
+**Out of scope.** Do not add a photo, do not add headings inside the body, do not link out to social profiles, do not touch the title.
+
+**Approval notes (this task).** Owen had not approved About copy. I am proposing a two-line voicey holding paragraph rather than leave the SaaS-stub copy in place. The structure (`<p class="page-body">`) is preserved so Owen can paste a longer essay between or around these lines later without any CSS or markup work.
+
+---
+
+### Task 10 — Loosen mobile spacing under the hero buttons
+
+**Why.** `mobile-fold.png` and `mobile-full.png` reviews flagged the same problem twice: "buttons bunched together," "vertical spacing… could use more," "too compressed and utilitarian." On mobile, `.hero-actions` wraps three buttons across two or three rows with only a `0.75rem` gap, and there's no breathing room between the last button and the bottom of the fold. Margin is the cheapest doodle-feel: a notebook is generous with space; a Tailwind hero is not. We bump the row gap and add bottom space below the action group on small viewports only — desktop layout is unaffected.
+
+**Files to touch.**
+- `styles.css` — extend the existing `@media (max-width: 640px)` block to add hero-specific rules. The block currently lives around lines 329–340 of `styles.css`.
+
+**Exact change.**
+Find the existing block:
+
+```css
+@media (max-width: 640px) {
+  .nav {
+    padding: 1.25rem var(--pad-x);
+  }
+  .nav-links {
+    gap: 1.25rem;
+  }
+  .intro {
+    font-size: 0.75rem;
+    max-width: 22ch;
+  }
+}
+```
+
+Replace with:
+
+```css
+@media (max-width: 640px) {
+  .nav {
+    padding: 1.25rem var(--pad-x);
+  }
+  .nav-links {
+    gap: 1.25rem;
+  }
+  .intro {
+    font-size: 0.75rem;
+    max-width: 22ch;
+  }
+  .hero {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .hero-text {
+    margin-bottom: 2.25rem;
+  }
+  .hero-actions {
+    gap: 0.85rem 0.75rem;
+  }
+  .hero-actions .btn {
+    width: 100%;
+    max-width: 18rem;
+  }
+}
+```
+
+**Visual / behavior spec.**
+- On viewports ≤640px only:
+  - The hero gains 5rem of vertical padding top and bottom (was 6rem/4rem unaltered → now consistent 5/5 on mobile).
+  - The hero headline gets 2.25rem of bottom margin (was 3rem on all viewports — slightly tighter on mobile so the buttons rise into the fold).
+  - The hero buttons stack full-width up to a 18rem cap. Three 100%-width pills with 0.85rem vertical gap between rows.
+- Desktop layout (≥641px) is unchanged.
+
+**Acceptance criteria.**
+- [ ] At a 375×667 viewport (iPhone SE), the three hero buttons stack one per line, each spanning the full content width up to ~288px, with visible vertical breathing room between them.
+- [ ] At a 1280×800 viewport, the hero layout looks identical to before this change.
+- [ ] No new media query is created; the change extends the existing `@media (max-width: 640px)` block.
+- [ ] No HTML changes.
+- [ ] No regression to the new hand-drawn underline under "thoughtful" — it still hugs the word at all viewports.
+
+**Out of scope.** Do not redesign the buttons. Do not change the desktop layout. Do not change the typography. Do not touch other pages' page-padding.
 
 ## Needs Owen's input
 

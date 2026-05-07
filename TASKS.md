@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Add a hand-lettered tagline doodle as a separate file `assets/tagline-doodle.svg`
+(none)
 
 ## Backlog
 
@@ -18,6 +18,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-07 — Add tagline doodle SVG asset — 9b6cc23
 - 2026-05-07 — Sparkle colors — change particles to confetti palette — 8154b73
 - 2026-05-07 — og:image — d9a4fee
 - 2026-05-07 — "Talk to Tobi" placeholder chat page, wired CTA link in hero — commit 3141446
@@ -27,7 +28,6 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-06 — Add dark mode CSS variables and prefers-color-scheme palette — commit d255d8a
 - 2026-05-06 — Add hand-drawn underline under hero word "thoughtful" — commit 0bb2522
 - 2026-05-06 — Wire contact page mailto link to owenbkelley@gmail.com — commit f858a50
-- 2026-05-06 — Add JSON-LD structured data to index.html — commit 1624c6b
 
 ---
 

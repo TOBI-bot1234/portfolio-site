@@ -337,6 +337,20 @@ a:focus-visible,
     font-size: 0.75rem;
     max-width: 22ch;
   }
+  .hero {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .hero-text {
+    margin-bottom: 2.25rem;
+  }
+  .hero-actions {
+    gap: 0.85rem 0.75rem;
+  }
+  .hero-actions .btn {
+    width: 100%;
+    max-width: 18rem;
+  }
 }
 
 /* Ambient fade-in on initial paint. Opacity + transform only to avoid CLS. */

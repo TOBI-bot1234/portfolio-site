@@ -387,3 +387,17 @@ a:focus-visible,
     animation: none;
   }
 }
+
+/* Hero doodle arrow — decorative, no motion */
+.hero-doodle-arrow {
+  display: block;
+  width: clamp(96px, 14vw, 140px);
+  height: auto;
+  margin: 1.25rem auto 0;
+  opacity: 0.75;
+  transform: rotate(-4deg);
+  pointer-events: none;
+}
+@media (max-width: 640px) {
+  .hero-doodle-arrow { width: 92px; opacity: 0.7; }
+}

@@ -4,19 +4,19 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Make the 404 page actually fun — see brief below
+- Replace `chat.html` body copy with a doodle-style placeholder — see brief below
 
 ## Backlog
 
-1. Make the 404 page actually fun — see brief below
-2. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
-3. Add a small doodled sigil + one-line sign-off footer to all pages — see brief below
-4. Replace `chat.html` body copy with a doodle-style placeholder — see brief below
-5. Replace `about.html` body copy with a tighter two-line manifesto — see brief below
-6. Loosen mobile spacing under the hero buttons — see brief below
+1. Replace `work.html` placeholder paragraph with a hand-numbered "things in progress" list — see brief below
+2. Add a small doodled sigil + one-line sign-off footer to all pages — see brief below
+3. Replace `chat.html` body copy with a doodle-style placeholder — see brief below
+4. Replace `about.html` body copy with a tighter two-line manifesto — see brief below
+5. Loosen mobile spacing under the hero buttons — see brief below
 
 ## Done (last 10)
 
+- 2026-05-07 — Make the 404 page actually fun — 80a6807
 - 2026-05-07 — Wire tagline doodle into hero section — d00a248
 - 2026-05-07 — Add tagline doodle SVG asset — 9b6cc23
 - 2026-05-07 — Sparkle colors — change particles to confetti palette — 8154b73
@@ -26,7 +26,6 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-07 — Dark mode meta tags — color-scheme and theme-color updated on all pages — commit c72abc0
 - 2026-05-07 — Fix sparkle particles to adapt to dark mode via --fg CSS variable — commit 0186b2d
 - 2026-05-06 — Add dark mode CSS variables and prefers-color-scheme palette — commit d255d8a
-- 2026-05-06 — Add hand-drawn underline under hero word "thoughtful" — commit 0bb2522
 
 ---
 

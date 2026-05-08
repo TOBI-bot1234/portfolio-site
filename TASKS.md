@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Clean up stale task briefs in TASKS.md (Tasks 3-10 already completed)
+(none)
 
 ## Backlog
 
@@ -18,6 +18,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-08 — Clean up stale task briefs in TASKS.md (~495 lines removed) — 0fdee2c
 - 2026-05-08 — Show noscript CTA link when JS disabled — 446e335
 - 2026-05-08 — Add scripts/ regeneration docs to README — 5370b25
 - 2026-05-08 — Ignore __pycache__/*.pyc/scripts/ in .gitignore — 685ce94
@@ -27,4 +28,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-07 — Loosen mobile hero button spacing — 729f58a
 - 2026-05-07 — Replace about.html with tighter two-line manifesto — 967c5e4
 - 2026-05-07 — Add global footer with doodle sigil to all pages — 2e35ff3
-- 2026-05-07 — Replace work.html with hand-numbered "things in progress" list — f440e04

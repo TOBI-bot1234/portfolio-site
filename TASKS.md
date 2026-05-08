@@ -4,18 +4,19 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- Sync sitemap.xml `lastmod` dates to today
 
 ## Backlog
 
-(none)
+1. Add `rel="alternate"` self-referencing canonical to sub-pages — SEO best practice, currently only index.html has canonical
 
 ## Needs Owen's input
 
-(none)
+- Add `next`/`prev` page navigation to sub-pages — needs Owen to specify page order and link text
 
 ## Done (last 10)
 
+- 2026-05-08 — Add chat.html to README; add page-link class to contact email — 547f5f2
 - 2026-05-07 — Sync og/twitter meta descriptions for 404 + chat — 429744c
 - 2026-05-07 — Loosen mobile hero button spacing — 729f58a
 - 2026-05-07 — Replace about.html with tighter two-line manifesto — 967c5e4
@@ -25,7 +26,6 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-07 — Make the 404 page actually fun — 80a6807
 - 2026-05-07 — Wire tagline doodle into hero section — d00a248
 - 2026-05-07 — Add tagline doodle SVG asset — 9b6cc23
-- 2026-05-07 — Sparkle colors — change particles to confetti palette — 8154b73
 
 ---
 

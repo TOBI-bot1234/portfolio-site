@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Sync sitemap.xml `lastmod` dates to today
+(none)
 
 ## Backlog
 
@@ -16,6 +16,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-08 — Sync sitemap.xml lastmod dates to today — 2008064
 - 2026-05-08 — Add chat.html to README; add page-link class to contact email — 547f5f2
 - 2026-05-07 — Sync og/twitter meta descriptions for 404 + chat — 429744c
 - 2026-05-07 — Loosen mobile hero button spacing — 729f58a
@@ -25,7 +26,6 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-07 — Replace chat.html body copy with doodle-style placeholder — c3bc3ba
 - 2026-05-07 — Make the 404 page actually fun — 80a6807
 - 2026-05-07 — Wire tagline doodle into hero section — d00a248
-- 2026-05-07 — Add tagline doodle SVG asset — 9b6cc23
 
 ---
 

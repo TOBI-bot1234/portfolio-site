@@ -18,6 +18,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-08 — Audit: add missing twitter:image meta to all 6 pages — 50174cf
 - 2026-05-08 — Clean up stale task briefs in TASKS.md (~495 lines removed) — 0fdee2c
 - 2026-05-08 — Show noscript CTA link when JS disabled — 446e335
 - 2026-05-08 — Add scripts/ regeneration docs to README — 5370b25

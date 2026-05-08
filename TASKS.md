@@ -8,7 +8,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-2. [Add `scripts/` regeneration docs to README] — `gen_og_image.py` is gitignored and undocumented. Add brief regeneration instructions to README.md so future cron runs and humans know how to rebuild `og-image.png`.
+1. [Add noscript fallback for index.html typing animation] — When JS is disabled, the intro text never appears. Add `<noscript>` fallback so the hero still makes sense.
 
 ## Needs Owen's input
 

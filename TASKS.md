@@ -8,11 +8,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-1. [Fix nav aria-current gap on chat.html] — Chat page is served but not in the nav, so it has no `aria-current="page"`. Either add Chat to nav links or accept the gap. Needs small decision from Owen.
-2. [Add `scripts/` helper docs] — `gen_og_image.py` is untracked and undocumented. Should add a README or at least inline docs so future cron runs know how to regenerate og-image.png.
+2. [Add `scripts/` regeneration docs to README] — `gen_og_image.py` is gitignored and undocumented. Add brief regeneration instructions to README.md so future cron runs and humans know how to rebuild `og-image.png`.
 
 ## Needs Owen's input
 
+1. [Fix nav aria-current gap on chat.html] — Chat page is served but not in the nav, so it has no `aria-current="page"`. Either add Chat to nav links or accept the gap. Needs Owen's signoff.
 - Add `next`/`prev` page navigation to sub-pages — needs Owen to specify page order and link text
 - Add Chat to sub-page nav — currently all sub-pages have Work/About/Contact but no Chat link. Should Chat appear in nav?
 

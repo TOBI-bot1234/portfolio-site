@@ -8,7 +8,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-1. Add `rel="alternate"` self-referencing canonical to sub-pages — SEO best practice, currently only index.html has canonical
+(none)
 
 ## Needs Owen's input
 

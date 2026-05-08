@@ -8,7 +8,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-1. [Add noscript fallback for index.html typing animation] — When JS is disabled, the intro text never appears. Add `<noscript>` fallback so the hero still makes sense.
+(none)
 
 ## Needs Owen's input
 
@@ -18,6 +18,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-08 — Show noscript CTA link when JS disabled — 446e335
 - 2026-05-08 — Add scripts/ regeneration docs to README — 5370b25
 - 2026-05-08 — Ignore __pycache__/*.pyc/scripts/ in .gitignore — 685ce94
 - 2026-05-08 — Sync sitemap.xml lastmod dates to today — 2008064
@@ -27,7 +28,6 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-07 — Replace about.html with tighter two-line manifesto — 967c5e4
 - 2026-05-07 — Add global footer with doodle sigil to all pages — 2e35ff3
 - 2026-05-07 — Replace work.html with hand-numbered "things in progress" list — f440e04
-- 2026-05-07 — Replace chat.html body copy with doodle-style placeholder — c3bc3ba
 
 ---
 

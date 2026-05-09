@@ -4,11 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- Update structured data canonical URLs on sub-pages
 
 ## Backlog
 
-1. [Update structured data canonical URLs on sub-pages] — all pages point Person schema URL to homepage; sub-pages could point to their own canonical for SEO
+(none)
 
 ## Needs Owen's input
 

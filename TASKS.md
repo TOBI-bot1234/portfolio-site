@@ -4,12 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- 1. [Normalize structured data across pages]
+- [Extract inline SVG styles to CSS] — chat.html and 404.html have inline `style` on decorative SVGs that should live in CSS classes
 
 ## Backlog
 
-2. [Extract inline SVG styles to CSS] — chat.html and 404.html have inline `style` on decorative SVGs (vertical-align, margin) that should live in CSS classes for consistency  
-3. [Add WebApp structured data to chat.html] — chat.html describes an upcoming chat feature; a SoftwareApplication ld+json would give search engines proper context
+- [Update structured data canonical URLs on sub-pages] — all pages point Person schema URL to homepage; sub-pages could point to their own canonical for SEO
 
 ## Needs Owen's input
 

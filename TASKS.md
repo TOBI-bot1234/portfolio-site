@@ -8,7 +8,9 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-(none)
+1. [Normalize structured data across pages] — 404.html (noindex) has no ld+json while having it would be pointless; remove WebSite schema from sub-pages where only Person schema belongs; keep Person on all pages
+2. [Extract inline SVG styles to CSS] — chat.html and 404.html have inline `style` on decorative SVGs (vertical-align, margin) that should live in CSS classes for consistency
+3. [Add WebApp structured data to chat.html] — chat.html describes an upcoming chat feature; a SoftwareApplication ld+json would give search engines proper context
 
 ## Needs Owen's input
 

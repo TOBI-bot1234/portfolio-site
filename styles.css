@@ -472,3 +472,13 @@ a:focus-visible,
 @media (max-width: 640px) {
   .site-footer { padding-top: 1.25rem; padding-bottom: 1.5rem; font-size: 0.72rem; }
 }
+
+/* Decorative inline SVGs — extracted from inline styles in page content */
+.icon-arrow-inline {
+  vertical-align: -2px;
+  margin: 0 4px;
+}
+.icon-squiggle-inline {
+  vertical-align: -4px;
+  margin-left: 4px;
+}

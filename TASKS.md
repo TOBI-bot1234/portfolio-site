@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Update structured data canonical URLs on sub-pages
+(none)
 
 ## Backlog
 
@@ -18,6 +18,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-09 — Update structured data canonical URLs on sub-pages — 796c808
 - 2026-05-09 — Extract inline SVG styles to CSS classes — b4deec4
 - 2026-05-08 — Audit: add missing twitter:image meta to all 6 pages — 50174cf
 - 2026-05-08 — Clean up stale task briefs in TASKS.md (~495 lines removed) — 0fdee2c
@@ -27,4 +28,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-08 — Sync sitemap.xml lastmod dates to today — 2008064
 - 2026-05-08 — Add chat.html to README; add page-link class to contact email — 547f5f2
 - 2026-05-07 — Sync og/twitter meta descriptions for 404 + chat — 429744c
-- 2026-05-07 — Loosen mobile hero button spacing — 729f58a

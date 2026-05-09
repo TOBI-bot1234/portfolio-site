@@ -4,11 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- [Extract inline SVG styles to CSS] — chat.html and 404.html have inline `style` on decorative SVGs that should live in CSS classes
+(none)
 
 ## Backlog
 
-- [Update structured data canonical URLs on sub-pages] — all pages point Person schema URL to homepage; sub-pages could point to their own canonical for SEO
+1. [Update structured data canonical URLs on sub-pages] — all pages point Person schema URL to homepage; sub-pages could point to their own canonical for SEO
 
 ## Needs Owen's input
 
@@ -18,6 +18,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-09 — Extract inline SVG styles to CSS classes — b4deec4
 - 2026-05-08 — Audit: add missing twitter:image meta to all 6 pages — 50174cf
 - 2026-05-08 — Clean up stale task briefs in TASKS.md (~495 lines removed) — 0fdee2c
 - 2026-05-08 — Show noscript CTA link when JS disabled — 446e335
@@ -27,5 +28,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-08 — Add chat.html to README; add page-link class to contact email — 547f5f2
 - 2026-05-07 — Sync og/twitter meta descriptions for 404 + chat — 429744c
 - 2026-05-07 — Loosen mobile hero button spacing — 729f58a
-- 2026-05-07 — Replace about.html with tighter two-line manifesto — 967c5e4
-- 2026-05-07 — Add global footer with doodle sigil to all pages — 2e35ff3

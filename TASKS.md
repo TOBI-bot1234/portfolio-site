@@ -4,11 +4,9 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- Trim JSON-LD duplication: remove redundant Person schema from sub-pages (index.html Person + WebSite is sufficient)
 
 ## Backlog
-
-1. [Trim JSON-LD duplication] — Every sub-page has its own `<script type="application/ld+json">` Person block that only differs by URL. Consider whether this adds value vs just having it on index.html.
 
 ## Needs Owen's input
 

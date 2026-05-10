@@ -4,12 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- [Consolidate repeated footer SVG across pages] — extract to assets/footer.js, inject via JS, noscript fallback
 
 ## Backlog
 
-1. [Consolidate repeated footer SVG across pages] — All 6 HTML pages have an inline footer SVG copy-pasted. Extract to partial or use JS injection to reduce duplication.
-2. [Trim JSON-LD duplication] — Every sub-page has its own `<script type="application/ld+json">` Person block that only differs by URL. Consider whether this adds value vs just having it on index.html.
+1. [Trim JSON-LD duplication] — Every sub-page has its own `<script type="application/ld+json">` Person block that only differs by URL. Consider whether this adds value vs just having it on index.html.
 
 ## Needs Owen's input
 

@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- [Consolidate repeated footer SVG across pages] — extract to assets/footer.js, inject via JS, noscript fallback
+(none)
 
 ## Backlog
 
@@ -18,6 +18,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-10 — Consolidate repeated footer SVG into assets/footer.js — fe50af3
 - 2026-05-10 — Add noreferrer to resume link rel attribute — 2ae3f45
 - 2026-05-09 — Update structured data canonical URLs on sub-pages — 796c808
 - 2026-05-09 — Extract inline SVG styles to CSS classes — b4deec4
@@ -27,4 +28,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-08 — Add scripts/ regeneration docs to README — 5370b25
 - 2026-05-08 — Ignore __pycache__/*.pyc/scripts/ in .gitignore — 685ce94
 - 2026-05-08 — Sync sitemap.xml lastmod dates to today — 2008064
-- 2026-05-08 — Add chat.html to README; add page-link class to contact email — 547f5f2

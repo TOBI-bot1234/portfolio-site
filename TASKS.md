@@ -8,7 +8,9 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-(none)
+1. [Add `rel="noopener noreferrer"` to `target="_blank"` resume link] — index.html resume button opens in new tab but only has `rel="noopener"`, missing `noreferrer` for full security.
+2. [Consolidate repeated footer SVG across pages] — All 6 HTML pages have an inline footer SVG copy-pasted. Extract to partial or use JS injection to reduce duplication.
+3. [Trim JSON-LD duplication] — Every sub-page has its own `<script type="application/ld+json">` Person block that only differs by URL. Consider whether this adds value vs just having it on index.html.
 
 ## Needs Owen's input
 

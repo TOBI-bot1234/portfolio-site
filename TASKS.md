@@ -6,11 +6,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 (none)
 
-## Needs Owen's input
-
-(none)
-
 ## Backlog
+
+1. Add `__pycache__` to .gitignore — Python bytecode file `scripts/__pycache__/gen_og_image.cpython-311.pyc` is tracked in the repo and adds noise
+
+## Needs Owen's input
 
 (none)
 

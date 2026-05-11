@@ -14,7 +14,7 @@ Plain static HTML and CSS with a small amount of vanilla JavaScript for the type
 - `work.html` — selected work
 - `about.html` — about Owen
 - `contact.html` — contact
-- `chat.html` — talk to Tobi (placeholder chat surface)
+- `chat.html` — Easter-egg page reached from the hero typing animation only. Deliberately omitted from the primary nav.
 - `404.html` — not found
 
 ## Running locally

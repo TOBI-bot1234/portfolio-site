@@ -478,10 +478,6 @@ a:focus-visible,
   vertical-align: -2px;
   margin: 0 4px;
 }
-.icon-squiggle-inline {
-  vertical-align: -4px;
-  margin-left: 4px;
-}
 
 /* Contact page — inline ink underline under "on purpose" */
 .contact-emph {

@@ -4,15 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-### 4. Document Chat-not-in-nav decision; close the aria-current loophole
-
-**Why.** Three of the three "Needs Owen's input" items revolved around Chat in the nav. Resolved: **Chat stays out of nav.** Document the decision in code so the next pass doesn't re-open the question.
-
-**Files to touch.** `chat.html`, `README.md`
+(none)
 
 ## Backlog
 
-(empty)
+(none)
 
 ## Needs Owen's input
 
@@ -20,6 +16,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-11 — Document Chat-not-in-nav decision, close aria-current loophole — 5f53387
 - 2026-05-11 — Add corner doodle to 404.html + loosen mobile hero rhythm — ba9063e
 - 2026-05-11 — Rewrite contact.html body with voice and inline ink underline — 9e5a9b3
 - 2026-05-10 — Trim redundant Person JSON-LD from sub-pages — 2fc79cd
@@ -29,4 +26,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-09 — Extract inline SVG styles to CSS classes — b4deec4
 - 2026-05-08 — Audit: add missing twitter:image meta to all 6 pages — 50174cf
 - 2026-05-08 — Clean up stale task briefs in TASKS.md (~495 lines removed) — 0fdee2c
-- 2026-05-08 — Show noscript CTA link when JS disabled — 446e335

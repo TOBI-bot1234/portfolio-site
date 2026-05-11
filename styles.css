@@ -505,3 +505,30 @@ a:focus-visible,
   opacity: 0.7;
   font-size: 0.95em;
 }
+
+/* 404 page — corner doodle + lowered title */
+.page-404 {
+  position: relative;
+}
+.page-404-doodle {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: currentColor;
+  opacity: 0.85;
+  transform: rotate(-6deg);
+  transform-origin: 20% 50%;
+}
+.page-404-links {
+  margin-top: 1.25rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .page-404-doodle {
+    animation: page-404-wobble 6s ease-in-out infinite alternate;
+  }
+}
+@keyframes page-404-wobble {
+  0%   { transform: rotate(-6deg); }
+  100% { transform: rotate(-3deg); }
+}

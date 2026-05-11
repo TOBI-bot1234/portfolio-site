@@ -4,79 +4,85 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-### Rewrite `contact.html` body — kill the support-ticket tone
+### 2. Add a corner doodle to `404.html` only
 
-**Why.** Contact is currently the most generic page on the site. The body is one line — *"The best way to reach me is by email."* — followed by a `mailto:`. That sentence could be on a Zendesk help center. The rest of the site (hero underline, "start here" arrow, About's voicey two paragraphs, Work's hand-numbered notebook list) is the opposite of this. `desktop-full.png` review across two cycles has consistently flagged inner pages as falling off a cliff vs the hero; Contact is the worst offender because it's the page where a real human is supposed to be on the other end and we sound like a form.
-
-This is pure copy + one inline ink mark. No CSS work, no new files.
+**Why.** The 404 page is the cheapest, highest-upside doodle moment in the whole repo and we still haven't shipped anything on it. A visitor who hits 404 is already mildly annoyed; a moment of human warmth there pays for itself instantly. Every screenshot review (going back to the 2026-05-06 cycle) has called this out. The page currently uses the same plain `page-title` + `page-body` template as everything else. We don't need a full redesign — we need one inline SVG sketch sitting in the upper corner of the main column, like someone doodled in the margin of a "not found" page.
 
 **Files to touch.**
-- `contact.html`
+- `404.html`
 - `styles.css` (append only)
 
-**Exact copy / content.** Replace the entire `<main class="page" id="main">` block with:
+**Exact copy / content.** In `404.html`, replace the entire `<main>` block with:
 
 ```html
-  <main class="page" id="main">
-    <h1 class="page-title">Contact</h1>
+  <main class="page page-404" id="main">
+    <svg class="page-404-doodle" viewBox="0 0 80 80" aria-hidden="true" focusable="false">
+      <path d="M14 22 C 18 14, 30 12, 38 18 C 46 24, 38 36, 28 36 C 22 36, 22 44, 28 46" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+      <circle cx="28" cy="56" r="2.2" fill="currentColor" />
+      <path d="M52 30 L 70 48 M70 30 L 52 48" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+    </svg>
+    <h1 class="page-title">Hmm.</h1>
     <p class="page-body">
-      Email is the front door. I read everything that lands and I write back
-      <span class="contact-emph">on purpose<svg class="contact-emph-underline" viewBox="0 0 110 10" aria-hidden="true" focusable="false" preserveAspectRatio="none"><path d="M2 7 C 25 2, 60 10, 108 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" /></svg></span>,
-      usually within a day or two.
+      That page either moved, broke, or never existed.
+      Either way, sorry about it.
     </p>
-    <p class="page-body">
-      <a class="page-link" href="mailto:owenbkelley@gmail.com">owenbkelley@gmail.com</a>
-    </p>
-    <p class="page-body contact-aside">
-      Subject lines optional. Pleasantries encouraged. One-line emails are my favorite kind.
+    <p class="page-body page-404-links">
+      Try
+      <a class="page-link" href="index.html">home</a>,
+      <a class="page-link" href="work.html">work</a>,
+      or just
+      <a class="page-link" href="contact.html">email me</a>
+      and tell me which link sent you here.
     </p>
   </main>
 ```
 
-Then add this CSS block to the end of `styles.css` (do not modify any existing rule):
+Append to `styles.css`:
 
 ```css
-/* Contact page — inline ink underline under "on purpose" */
-.contact-emph {
+/* 404 page — corner doodle + lowered title */
+.page-404 {
   position: relative;
-  display: inline-block;
-  white-space: nowrap;
 }
-.contact-emph-underline {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -0.18em;
-  width: 100%;
-  height: 0.4em;
-  pointer-events: none;
+.page-404-doodle {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin-bottom: 0.5rem;
   color: currentColor;
   opacity: 0.85;
+  transform: rotate(-6deg);
+  transform-origin: 20% 50%;
 }
-.contact-aside {
-  margin-top: 1.5rem;
-  opacity: 0.7;
-  font-size: 0.95em;
+.page-404-links {
+  margin-top: 1.25rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .page-404-doodle {
+    animation: page-404-wobble 6s ease-in-out infinite alternate;
+  }
+}
+@keyframes page-404-wobble {
+  0%   { transform: rotate(-6deg); }
+  100% { transform: rotate(-3deg); }
 }
 ```
 
+**Acceptance criteria.**
+- [ ] Visiting `/404.html` renders the doodle SVG in the upper-left of the main column, rotated -6deg.
+- [ ] With `prefers-reduced-motion: reduce` set, the SVG does not animate.
+- [ ] Heading reads exactly `Hmm.` (capital H, period).
+- [ ] All three recovery links (`home`, `work`, `email me`) work and target the right pages.
+- [ ] No layout shift on mobile (375px) — the SVG sits inside the main column padding.
+- [ ] No changes to `<head>`, nav, scripts, or the `noscript` footer.
+
 ## Backlog
-
-### 2. Add a corner doodle to `404.html` only
-
-Replace `<main>` with doodle SVG + updated copy. Append CSS to `styles.css`.
-
-**Files.** `404.html`, `styles.css` (append only).
-
-See original brief for full markup/CSS (kept in git history from Owen's TASKS.md push).
-
----
 
 ### 3. Mobile-only: loosen vertical rhythm under the hero buttons
 
-Single `@media (max-width: 600px)` block appended to `styles.css`. No HTML changes.
+Single `@media (max-width: 600px)` block appended to `styles.css`. No HTML changes. Stack hero buttons vertically on mobile, add breathing room.
 
-See original brief for full CSS (kept in git history from Owen's TASKS.md push).
+See full brief in git history (commit ab0a77d).
 
 ---
 
@@ -84,17 +90,21 @@ See original brief for full CSS (kept in git history from Owen's TASKS.md push).
 
 Add HTML comment in `chat.html` inside `<nav class="nav-links">`, add `## Pages` section to `README.md`.
 
-See original brief for exact comment/README text (kept in git history).
+See full brief in git history (commit ab0a77d).
 
 ## Needs Owen's input
 
-(none — see In Progress task approval notes above)
+(none — see task 4 approval notes)
 
 ## Done (last 10)
 
+- 2026-05-11 — Rewrite contact.html body with voice and inline inkunderline — 9e5a9b3
 - 2026-05-10 — Trim redundant Person JSON-LD from sub-pages — 2fc79cd
 - 2026-05-10 — Consolidate repeated footer SVG into assets/footer.js — fe50af3
 - 2026-05-10 — Add noreferrer to resume link rel attribute — 2ae3f45
 - 2026-05-09 — Update structured data canonical URLs on sub-pages — 796c808
 - 2026-05-09 — Extract inline SVG styles to CSS classes — b4deec4
 - 2026-05-08 — Audit: add missing twitter:image meta to all 6 pages — 50174cf
+- 2026-05-08 — Clean up stale task briefs in TASKS.md (~495 lines removed) — 0fdee2c
+- 2026-05-08 — Show noscript CTA link when JS disabled — 446e335
+- 2026-05-08 — Add scripts/ regeneration docs to README — 5370b25

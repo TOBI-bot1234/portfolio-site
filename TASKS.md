@@ -4,11 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- Update sitemap.xml `<lastmod>` dates
+(none)
 
 ## Backlog
 
-2. Decide on `scripts/gen_og_image.py` git tracking — `scripts/` is in .gitignore so OG image script is untracked
+1. Decide on `scripts/gen_og_image.py` git tracking — `scripts/` is in .gitignore so OG image script is untracked
 
 ## Needs Owen's input
 
@@ -16,6 +16,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-12 — Update sitemap.xml lastmod dates — 381b5e9
 - 2026-05-12 — Add __pycache__ to .gitignore (was already done, just unmarked) — 5f1284d
 - 2026-05-11 — Rewrite thin meta descriptions to be actual descriptions — 3a2252b
 - 2026-05-11 — Remove dead .icon-squiggle-inline CSS class — 7450b58
@@ -25,4 +26,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-11 — Rewrite contact.html body with voice and inline ink underline — 9e5a9b3
 - 2026-05-10 — Trim redundant Person JSON-LD from sub-pages — 2fc79cd
 - 2026-05-10 — Consolidate repeated footer SVG into assets/footer.js — fe50af3
-- 2026-05-10 — Add noreferrer to resume link rel attribute — 2ae3f45

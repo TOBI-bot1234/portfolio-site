@@ -8,7 +8,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-1. Decide on `scripts/gen_og_image.py` git tracking — `scripts/` is in .gitignore so OG image script is untracked
+- Decide on `scripts/gen_og_image.py` git tracking — `scripts/` is in .gitignore so OG image script is untracked
 
 ## Needs Owen's input
 

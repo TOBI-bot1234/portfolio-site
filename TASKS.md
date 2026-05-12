@@ -4,11 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- Update sitemap.xml `<lastmod>` dates
 
 ## Backlog
 
-(none)
+2. Decide on `scripts/gen_og_image.py` git tracking — `scripts/` is in .gitignore so OG image script is untracked
 
 ## Needs Owen's input
 

@@ -171,5 +171,37 @@ if unused_classes:
 else:
     print('  All CSS classes are used')
 
-print(f'\n=== OVERALL === {"Clean" if not (broken or missing_alt or undefined or debug_found or unused_classes or dup_found) else "Issues found"}')
+# Sitemap completeness — check all non-noindex HTML pages are listed
+print('\n=== SITEMAP COMPLETENESS ===')
+sitemap_ok = True
+sitemap_path = 'sitemap.xml'
+if os.path.exists(sitemap_path):
+    with open(sitemap_path) as f:
+        sitemap = f.read()
+    sitemap_locs = set(re.findall(r'<loc>([^<]+)</loc>', sitemap))
+    base_url = 'https://tobi-bot1234.github.io/portfolio-site'
+    missing_from_sitemap = []
+    for hf in html_files:
+        if hf == 'index.html':
+            url = f'{base_url}/'
+        else:
+            url = f'{base_url}/{hf}'
+        # Skip pages with noindex — they should not be in sitemap
+        with open(hf) as f:
+            html = f.read()
+        if 'noindex' in html:
+            continue
+        if url not in sitemap_locs:
+            missing_from_sitemap.append(hf)
+    if missing_from_sitemap:
+        sitemap_ok = False
+        for m in missing_from_sitemap:
+            print(f'  MISSING: {m}')
+    else:
+        print('  All non-noindex pages in sitemap')
+else:
+    sitemap_ok = False
+    print('  sitemap.xml not found')
+
+print(f'\n=== OVERALL === {"Clean" if not (broken or missing_alt or undefined or debug_found or unused_classes or dup_found or not sitemap_ok) else "Issues found"}')
 print('=== DONE ===')

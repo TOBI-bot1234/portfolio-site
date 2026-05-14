@@ -16,6 +16,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-14 — Fix .audit.py false positives (os.walk, role=presentation, favicon regex) — 775afb5
 - 2026-05-12 — Update sitemap.xml lastmod dates — 381b5e9
 - 2026-05-12 — Add __pycache__ to .gitignore (was already done, just unmarked) — 5f1284d
 - 2026-05-11 — Rewrite thin meta descriptions to be actual descriptions — 3a2252b
@@ -25,4 +26,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-11 — Add corner doodle to 404.html + loosen mobile hero rhythm — ba9063e
 - 2026-05-11 — Rewrite contact.html body with voice and inline ink underline — 9e5a9b3
 - 2026-05-10 — Trim redundant Person JSON-LD from sub-pages — 2fc79cd
-- 2026-05-10 — Consolidate repeated footer SVG into assets/footer.js — fe50af3

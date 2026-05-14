@@ -4,6 +4,7 @@
   --border: #0a0a0a;
   --muted: #8a8a8a;
   --shadow: 0 6px 16px -8px rgba(10, 10, 10, 0.25);
+  --ink-accent: #d94a1f;
   --max-w: 1200px;
   --pad-x: clamp(1.25rem, 4vw, 3rem);
 }
@@ -15,6 +16,7 @@
     --border: #e8e8e8;
     --muted: #6e6e72;
     --shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.5);
+    --ink-accent: #ff7a4d;
   }
 }
 
@@ -388,7 +390,7 @@ a:focus-visible,
   bottom: -0.18em;
   width: 104%;
   height: 0.34em;
-  color: var(--fg);
+  color: var(--ink-accent);
   pointer-events: none;
   overflow: visible;
 }
@@ -410,7 +412,8 @@ a:focus-visible,
   margin: 1.25rem auto 0;
   opacity: 0.75;
   transform: rotate(-4deg);
-  pointer-events: none;
+  color: var(--ink-accent);
+}
 }
 @media (max-width: 640px) {
   .hero-doodle-arrow { width: 92px; opacity: 0.7; }

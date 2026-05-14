@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- [#3] Add sitemap completeness check to .audit.py
+- [Task C] Add single warm accent color to hero underline + doodle arrow (2 places only)
 
 ## Backlog
 

@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-- [#5] Add .nojekyll — GitHub Pages convention to skip Jekyll processing
+(none)
 
 ## Backlog
 
@@ -17,6 +17,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-15 — Add .nojekyll to skip Jekyll processing (#5) — 0014182
 - 2026-05-15 — Add apple-touch-icon for iOS home screen (#4) — 1773738
 - 2026-05-14 — Add single warm accent (#d94a1f) to hero underline + doodle arrow (Task C) — 9c0b8ea
 - 2026-05-14 — Git-track scripts/gen_og_image.py, tighten .gitignore (Task A) — 9c0b8ea
@@ -26,4 +27,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-11 — Rewrite thin meta descriptions to be actual descriptions — 3a2252b
 - 2026-05-11 — Remove dead .icon-squiggle-inline CSS class — 7450b58
 - 2026-05-11 — Mark all backlog items done, backlog empty — 65ede1f
-- 2026-05-11 — Document Chat-not-in-nav decision, close aria-current loophole — 5f53387

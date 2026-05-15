@@ -8,14 +8,13 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-1. [Task B] Replace `work.html` items 1–3 with three real, specific entries — current items are meta-self-referential filler
-2. [Task D] Stretch the About page from two thin lines to a short, specific paragraph — replace second paragraph with substantive copy
-3. [#4] Add apple-touch-icon for iOS home screen — currently no apple-touch-icon, site will look generic when added to iOS home screen
-4. [#5] Consider adding .nojekyll — GitHub Pages convention to skip Jekyll processing (already working without it, but explicit is safer)
+1. [#4] Add apple-touch-icon for iOS home screen — currently no apple-touch-icon, site will look generic when added to iOS home screen
+2. [#5] Add .nojekyll — GitHub Pages convention to skip Jekyll processing (already working without it, but explicit is safer)
 
 ## Needs Owen's input
 
-(none — `scripts/gen_og_image.py` git tracking resolved 2026-05-14 by designer; see Task A.)
+- [Task B] Replace `work.html` items 1–3 with real entries — needs Owen's actual project descriptions
+- [Task D] Stretch About page to substantive paragraph — needs Owen's personal bio text
 
 ## Done (last 10)
 

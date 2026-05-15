@@ -4,11 +4,11 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- [#5] Add .nojekyll — GitHub Pages convention to skip Jekyll processing
 
 ## Backlog
 
-1. [#5] Add .nojekyll — GitHub Pages convention to skip Jekyll processing (already working without it, but explicit is safer)
+(none)
 
 ## Needs Owen's input
 

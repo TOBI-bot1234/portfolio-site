@@ -4,7 +4,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## In progress
 
-(none)
+- [#4] Add apple-touch-icon for iOS home screen
 
 ## Backlog
 

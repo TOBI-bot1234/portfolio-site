@@ -414,7 +414,8 @@ a:focus-visible,
   transform: rotate(-4deg);
   color: var(--ink-accent);
 }
-}
+
+/* Mobile: smaller doodle arrow */
 @media (max-width: 640px) {
   .hero-doodle-arrow { width: 92px; opacity: 0.7; }
 }

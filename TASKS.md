@@ -8,7 +8,8 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Backlog
 
-(none)
+1. [Add structured data for Work page] — JSON-LD for CreativeWork on work entries when they're real
+2. [Update sitemap.xml lastmod] — keep dates current on each run
 
 ## Needs Owen's input
 
@@ -17,6 +18,7 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 
 ## Done (last 10)
 
+- 2026-05-16 — Fix stray closing brace in styles.css that broke CSS parsing — d399448
 - 2026-05-15 — Add .nojekyll to skip Jekyll processing (#5) — 0014182
 - 2026-05-15 — Add apple-touch-icon for iOS home screen (#4) — 1773738
 - 2026-05-14 — Add single warm accent (#d94a1f) to hero underline + doodle arrow (Task C) — 9c0b8ea
@@ -26,4 +28,3 @@ Single source of truth for portfolio-site work. See "Task tracker" in Bob's inst
 - 2026-05-12 — Add __pycache__ to .gitignore (was already done, just unmarked) — 5f1284d
 - 2026-05-11 — Rewrite thin meta descriptions to be actual descriptions — 3a2252b
 - 2026-05-11 — Remove dead .icon-squiggle-inline CSS class — 7450b58
-- 2026-05-11 — Mark all backlog items done, backlog empty — 65ede1f
